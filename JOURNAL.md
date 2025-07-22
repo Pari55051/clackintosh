@@ -7,7 +7,7 @@ completed_at: "____"
 ---
 
 ---
-## July 20th: Research
+# July 20th: Research
 I researched about building mechanical keyboard, made the inital list of features that I am planning to include, explored websites related to mechanical keyboards (ranging from online stores, to various subreddits and youtube videos). Also, looked at some already approved mech keyboards projects submitted for highhway for more info + inspiration.
 
 **(Initial) List of Features:**
@@ -19,5 +19,20 @@ I researched about building mechanical keyboard, made the inital list of feature
 - 3D printed case --> might inclide a nice tilt for better ergo --> white coloured
 - per-key rgb via sk2852mini-e leds
 
-**Total time spent: 3h**
+**Total time spent: 3hr**
+---
+
+# July 21st - July 22nd: Schematic for PCB
+Made the schematic for the keyboard's pcb. this took a lot of googling, asking in #highway in hackclub's slack, and also some perplexity-done research (because why not) (cross-checked everyhting though).
+Made the following updates to the overall project plans as well:
+- decided to go ahead with the 75% layout - 81 keys
+- added the rotary encoder (since i had to use an i2c expander anyway becuase of the neopixels)
+
+Found a design (mostly just the layout( inspiration:
+![keeb inspo](https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/B2/08/0aa98611-ab68-45b0-be14-be7ab895574e.jpg.webp)
+
+Screnshot of the Schem:
+<<link screenshot>>
+
+**Total time spent: 6.5hr**
 ---
