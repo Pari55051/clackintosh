@@ -28,11 +28,38 @@ Made the following updates to the overall project plans as well:
 - decided to go ahead with the 75% layout - 81 keys
 - added the rotary encoder (since i had to use an i2c expander anyway becuase of the neopixels)
 
-Found a design (mostly just the layout( inspiration:
+Found a design (mostly just the layout) inspiration:
 ![keeb inspo](https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/B2/08/0aa98611-ab68-45b0-be14-be7ab895574e.jpg.webp)
 
 Screnshot of the Schem:
-<<link screenshot>>
+<img width="1337" height="944" alt="Screenshot 2025-07-23 at 12 39 24 AM" src="https://github.com/user-attachments/assets/0c4aae12-2dd9-4654-8c72-4430f62ecf63" />
+<img width="1526" height="1073" alt="Screenshot 2025-07-25 at 11 38 41 PM" src="https://github.com/user-attachments/assets/f10d29f3-f775-4625-84d1-cc458908e8e2" />
+
 
 **Total time spent: 6.5hr**
 ---
+
+# July 24th: PCB Schem Touchups
+Edited the schem to better account for battery life, etc. Made the following updates:
+- found a 10000mah battery for powering the setup (added symbol to kicad schem, yes i did not have it before)
+- added capacitor + resisitor to neopixels chain (still not sure which specifications ones => decided between (220-470uF range for caps)? and 330-470ohm range for resistor)
+- found out that since i only need a underglow, 20 neopixels would be enough instead of all 82 for per-key rgb
+- asked in some places (#highway slack and reddit] for cross-verifying my schematic (always good to make sure) [link to reddit post]
+
+Screenshots of the Schem: (better organized in sub-sheets)
+  <img width="1342" height="908" alt="root_schem" src="https://github.com/user-attachments/assets/de77d7d8-8f36-415a-8d86-499ddb7fbe5a" />
+<img width="644" height="820" alt="swithces_schem" src="https://github.com/user-attachments/assets/5e756d20-3f3d-4d41-8d17-d233b1032a77" />
+<img width="1025" height="332" alt="neopixels_schem" src="https://github.com/user-attachments/assets/baddb14a-f328-4ca9-a2a6-c0d5395af28b" />
+
+
+**Total time spent: 4.5hr**
+---
+
+
+
+
+
+
+
+
+
