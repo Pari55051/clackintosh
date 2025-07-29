@@ -55,6 +55,35 @@ Screenshots of the Schem: (better organized in sub-sheets)
 **Total time spent: 4.5hr**
 ---
 
+# July 27th - July 28th: PCB Schem Touchups 2 + PCB Placement
+**Made some major edits to the schem:**
+- changed the key matrix to better resemble the actual keyboard
+- added a slide switch (because, well, I forgot to do it before)
+- added footprints
+
+**PCB Placement**
+- used Keyboard Layout Placer Plugin in KiCad to position the keys in the appropriate place as per decided layout
+- made the decided layout in the Keyboard Layout Maker to get the json file
+- placed the MCU, battery holder, etc.
+- added 3D model for the switch, which i was adding on the worng side, fixed the issue there (took a lot of time)
+- wiring is still left
+
+did more research + parts sourcing work informally (i.e checked where all available and at which price range)
+
+Screenshots of the Schem:
+ <img width="2240" height="1260" alt="switches_schem_new" src="https://github.com/user-attachments/assets/bf702b60-c10e-443f-b2a5-ba10a3e3b507" />
+
+Screenshots of the PCB (unwired):
+<img width="1502" height="841" alt="pcb" src="https://github.com/user-attachments/assets/e99dca17-a1d1-4f6c-a1fc-7a509b2a060b" />
+
+Screenshot of the Keyboard Layout:
+<img width="2020" height="1214" alt="Keeb_Layout" src="https://github.com/user-attachments/assets/6caf62cc-36e2-4975-9cd0-2b8ac7889214" />
+
+plan for next ses: add 3d models to pcb + final checks for correctness, start with case CAD
+
+**Total time spent: 5hr**
+---
+
 
 
 
