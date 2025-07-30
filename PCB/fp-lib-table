@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Scottokeeb")(type "KiCad")(uri "${KIPRJMOD}/ScottoKicad/footprints")(options "")(descr ""))
+  (lib (name "scottokeeb_mcu")(type "KiCad")(uri "${KIPRJMOD}/ScottoKicad/footprints/ScottoKeebs_MCU.pretty")(options "")(descr ""))
+  (lib (name "scottokeeb_")(type "KiCad")(uri "${KIPRJMOD}/ScottoKicad/footprints/ScottoKeebs_Scotto.pretty")(options "")(descr ""))
+  (lib (name "scottokeeb_stabilizers")(type "KiCad")(uri "${KIPRJMOD}/ScottoKicad/footprints/ScottoKeebs_Stabilizer.pretty")(options "")(descr ""))
+  (lib (name "scottokeeb_components")(type "KiCad")(uri "${KIPRJMOD}/ScottoKicad/footprints/ScottoKeebs_Components.pretty")(options "")(descr ""))
+  (lib (name "slider_switch")(type "KiCad")(uri "${KIPRJMOD}/MINI SPDT SW Model")(options "")(descr ""))
+  (lib (name "Neopixel")(type "KiCad")(uri "${KIPRJMOD}/SK6812-E Model")(options "")(descr ""))
+)
