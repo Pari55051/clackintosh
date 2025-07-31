@@ -1,0 +1,22 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                // Row 1 (Esc row)
+                &kp ESC &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 &kp 6 &kp 7 &kp 8 &kp 9 &kp 0 &kp MINUS &kp EQUAL &kp BSPC &kp DEL
+                // Row 2 (Tab row)
+                &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT &kp BSLS
+                // Row 3 (Caps row)
+                &kp CAPS &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI &kp SQT &kp ENTER
+                // Row 4 (Shift row)
+                &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp RSHIFT &kp UP
+                // Row 5 (Bottom row)
+                &kp LCTRL &kp LGUI &kp LALT &kp SPACE &kp SPACE &kp SPACE &kp RALT &kp FN &kp LEFT &kp DOWN &kp RIGHT
+                // Extra keys (adjust location/usage as needed)
+                &kp PGUP &kp PGDN &kp F13
+            >;
+        };
+    };
+};

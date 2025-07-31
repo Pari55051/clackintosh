@@ -1,0 +1,26 @@
+/ {
+    encoder1: encoder1 {
+        compatible = "zmk,rotary-encoder";
+        label = "Rotary Encoder";
+        a-gpios = <&gpio0 15 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+        b-gpios = <&gpio0 16 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+        steps = <4>;
+        events = <&encoder_ccw &encoder_cw>;
+    };
+};
+
+/ {
+    behaviors {
+        encoder_ccw: encoder_ccw {
+            compatible = "zmk,behavior-tap";
+            label = "ENC_CCW";
+            bindings = <&kp LEFT>;
+        };
+
+        encoder_cw: encoder_cw {
+            compatible = "zmk,behavior-tap";
+            label = "ENC_CW";
+            bindings = <&kp RIGHT>;
+        };
+    };
+};
