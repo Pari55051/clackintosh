@@ -3,7 +3,8 @@ title: Clackintosh
 author: unowen
 description: a nice mechanical keyboard to go with my mac
 created_at: "2025-07-20"
-completed_at: "____"
+completed_on: "2025-07-31"
+tota time: "22hr"
 ---
 
 ---
@@ -19,7 +20,7 @@ I researched about building mechanical keyboard, made the inital list of feature
 - 3D printed case --> might inclide a nice tilt for better ergo --> white coloured
 - per-key rgb via sk2852mini-e leds
 
-**Total time spent: 3hr**
+**Total time spent: 1.5hr**
 ---
 
 # July 21st - July 22nd: Schematic for PCB
@@ -52,7 +53,7 @@ Screenshots of the Schem: (better organized in sub-sheets)
 <img width="1025" height="332" alt="neopixels_schem" src="https://github.com/user-attachments/assets/baddb14a-f328-4ca9-a2a6-c0d5395af28b" />
 
 
-**Total time spent: 4.5hr**
+**Total time spent: 3.5hr**
 ---
 
 # July 27th - July 28th: PCB Schem Touchups 2 + PCB Placement
@@ -81,10 +82,10 @@ Screenshot of the Keyboard Layout:
 
 plan for next ses: add 3d models to pcb + final checks for correctness, start with case CAD
 
-**Total time spent: 5hr**
+**Total time spent: 4hr**
 ---
 
-# July 29-30th: PCB FInalized
+# July 29-30th: PCB Finalized
 - added decoupling caps to neopixels after a lot of help from people
 - did the final wiring of the pcb
 - added 3d models to the pcb of the components
@@ -93,7 +94,7 @@ plan for next ses: add 3d models to pcb + final checks for correctness, start wi
 
 <images>
 
-**Total time spent: 5hr**
+**Total time spent: 4hr (took way too long becuase i had to manually add each key)**
 ---
 
 
@@ -101,14 +102,13 @@ plan for next ses: add 3d models to pcb + final checks for correctness, start wi
 - added 3d model of pcb to CAD
 - finishing touches to case CAD
 - re-verifying everything => found out battery needed some re-modelling of the case
-- finalzed repo for shipping
+- finalized repo for shipping
 
 
-<images>
+<final images in readme>
   
 **Total time spent: 2.5hr**
 ---
 
 
-
-
+**TOTAL TIME SPENT = 22hr (schem took wayy too long)**

@@ -5,7 +5,146 @@
 	(uuid "577932ae-c070-4c9e-8c61-c9816779178f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ScottoKeebs:LED_SK6812MINI"
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KiCad Keyboard Parts:SK6812MINI-E"
 			(pin_names
 				(offset 0.254)
 			)
@@ -13,7 +152,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 2.032 5.588 0)
+				(at 5.08 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,7 +160,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "LED_SK6812MINI"
+			(property "Value" "SK6812MINI-E"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -30,7 +169,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
+			(property "Footprint" "kicad-keyboard-parts:MX_SK6812MINI-E"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -40,8 +179,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-				(at 1.27 -11.176 0)
+			(property "Datasheet" ""
+				(at 2.54 -9.525 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -50,24 +189,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 18.288 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C5149201"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -85,7 +207,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_SK6812MINI_0_0"
+			(symbol "SK6812MINI-E_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -95,25 +217,14 @@
 					)
 				)
 			)
-			(symbol "LED_SK6812MINI_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "SK6812MINI-E_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -125,7 +236,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -137,7 +248,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -149,7 +260,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -161,7 +272,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -173,7 +284,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -185,14 +296,25 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 			)
-			(symbol "LED_SK6812MINI_1_1"
+			(symbol "SK6812MINI-E_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -496,2122 +618,1479 @@
 		)
 	)
 	(junction
-		(at 153.67 90.17)
+		(at 196.85 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0610b291-a8a9-4cc0-91b7-55aeea712f5c")
+		(uuid "046a0565-980c-4deb-9c2d-84d045aaade9")
 	)
 	(junction
-		(at 153.67 59.69)
+		(at 318.77 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0a066f3c-aae4-4cbf-89fa-4764814ff77c")
+		(uuid "06e91164-e07d-46ba-a554-42a64d69a534")
 	)
 	(junction
-		(at 242.57 59.69)
+		(at 278.13 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1152bbcd-0e36-4bc3-83e7-2ff13b9608ec")
+		(uuid "07f46f71-9785-464a-8871-0ee2ca99aaa9")
 	)
 	(junction
-		(at 171.45 90.17)
+		(at 156.21 -31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "12b06019-6ebf-452c-bcb7-edd8f2607623")
+		(uuid "1e352290-df24-409b-b169-6b1d74534ace")
 	)
 	(junction
-		(at 207.01 59.69)
+		(at 339.09 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "164b9963-8f3e-4856-a8b0-1bd72d912b76")
+		(uuid "1efc1bfb-8116-46e5-a602-4f3bae2564cd")
 	)
 	(junction
-		(at 171.45 59.69)
+		(at 217.17 -31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2aa60e92-f021-4747-8481-329c0006b73c")
+		(uuid "1f802102-47e4-4ec6-89d1-607694f8d946")
 	)
 	(junction
-		(at 135.89 59.69)
+		(at 257.81 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b37be26-91c4-4427-8b27-4b9b7e73bfd9")
+		(uuid "22e2b31d-0774-4034-bdb7-6b08743b4a2b")
 	)
 	(junction
-		(at 64.77 90.17)
+		(at 54.61 -31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "516e0e00-b51d-47d8-97e6-2095da27cec5")
+		(uuid "22ef9406-aa7b-4ab8-942f-45e109254be4")
 	)
 	(junction
-		(at 118.11 59.69)
+		(at 34.29 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6dae7cc9-617f-46f4-b8cd-c9cb20784eef")
+		(uuid "2d29eb3d-ce20-44cd-8796-0ed060b8727e")
 	)
 	(junction
-		(at 82.55 59.69)
+		(at 278.13 -31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7fbfce34-bb50-4089-82de-0ff8560643e5")
+		(uuid "2f089275-42ce-4393-84f3-cc89f3e2e88e")
 	)
 	(junction
-		(at 82.55 90.17)
+		(at 34.29 -31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85bf2676-b2fb-4614-bdb7-526a84a03a84")
+		(uuid "315ca7f7-cb1d-4085-b07d-c609c8bd80f0")
 	)
 	(junction
-		(at 100.33 59.69)
+		(at 115.57 -31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "973742bd-bc0c-4dc3-9a24-e5472936a3fa")
+		(uuid "3bf77909-0fc3-46c2-9fd7-8bd65c61e51f")
 	)
 	(junction
-		(at 267.97 59.69)
+		(at 217.17 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c736855-fc74-4bba-83eb-3194a59f22c3")
+		(uuid "4ae644a3-7962-4855-97aa-2975a0098bef")
 	)
 	(junction
-		(at 224.79 59.69)
+		(at 135.89 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2332bd3-3ce3-489f-9403-12f1a4e7e52d")
+		(uuid "4e2a8ce7-a9c6-47d3-91c0-a1a448a7f1d3")
 	)
 	(junction
-		(at 118.11 90.17)
+		(at 237.49 -31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2d6d56b-6316-444e-b026-ef57224fc1e3")
+		(uuid "50b13b63-8e88-4854-8169-bc48c57a0908")
 	)
 	(junction
-		(at 189.23 59.69)
+		(at 237.49 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b0ca689d-eb89-4c91-9f5e-848b1bb10157")
+		(uuid "652ddf00-0c21-4f7a-aa6d-4fb021eb907c")
 	)
 	(junction
-		(at 64.77 59.69)
+		(at 176.53 -31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b45cf1eb-7625-491d-95dd-4908b20a2f38")
+		(uuid "680d7791-618a-4d4b-b78c-6865e2261e8b")
 	)
 	(junction
-		(at 100.33 90.17)
+		(at 318.77 -31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd1c5cf3-3bd8-46c6-b3d0-639dc94633f8")
+		(uuid "69e9cdb1-5e26-4735-a017-18b665059259")
 	)
 	(junction
-		(at 135.89 90.17)
+		(at 156.21 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "efb7e386-e1e4-4a13-bde2-b0e8beac6ffa")
+		(uuid "7276e4a4-f2aa-4ec8-b2e7-c96d6c0ed8da")
+	)
+	(junction
+		(at 13.97 -59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e6605b9-dece-4637-964e-82b3a325ce53")
+	)
+	(junction
+		(at 54.61 -59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93bca8d0-4d6b-4644-8a35-53ec36ae9f62")
+	)
+	(junction
+		(at 135.89 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96e20a24-24ad-4125-adfb-31c6f500a9f0")
+	)
+	(junction
+		(at 359.41 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fc306d8-9e48-4489-b920-461c2c35660d")
+	)
+	(junction
+		(at -26.67 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a21f8e8d-3fbb-4db0-917c-9539d156732d")
+	)
+	(junction
+		(at 298.45 -59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a589d610-e164-45d4-915b-01310c32d84b")
+	)
+	(junction
+		(at 74.93 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac2af88c-71ac-4bbc-98b3-fbc68a309610")
+	)
+	(junction
+		(at 115.57 -59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae923648-1db6-46d5-b05c-f58c4c12e6a7")
+	)
+	(junction
+		(at 257.81 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be51ec8f-9b2e-402a-a90f-04a145d38d97")
+	)
+	(junction
+		(at 74.93 -59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfe51553-9576-42ea-b69d-e09b0280dc7c")
+	)
+	(junction
+		(at 95.25 -59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c06868f8-7448-4539-8008-f18b8b6621a5")
+	)
+	(junction
+		(at 95.25 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9adcfa2-ad49-4e19-9133-13cc1cbb8039")
+	)
+	(junction
+		(at 176.53 -59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfd86ccd-ed6d-432c-b4f5-c38b2f5405bd")
+	)
+	(junction
+		(at 196.85 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d57f88af-0071-4158-985a-16ef71f120b0")
+	)
+	(junction
+		(at 13.97 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daeb5ddc-fa22-4e2f-bdb5-992d8ebfbe49")
+	)
+	(junction
+		(at -6.35 -59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc265317-dfbb-4a37-989c-9b55d74ff9a3")
+	)
+	(junction
+		(at -6.35 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e00e8c2a-da4d-4d30-b1da-511a67cfa849")
+	)
+	(junction
+		(at 339.09 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0de597e-33ab-4fe6-8538-c5c3ffadfad0")
+	)
+	(junction
+		(at 298.45 -31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e30da3d4-e84d-4a25-9f5a-be0512c87214")
+	)
+	(junction
+		(at 359.41 -59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e684e119-5891-496d-b757-151fede43865")
+	)
+	(junction
+		(at -26.67 -59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f67cb20c-5476-47f3-ae74-0fa1072b134a")
 	)
 	(wire
 		(pts
-			(xy 179.07 67.31) (xy 181.61 67.31)
+			(xy -19.05 -52.07) (xy -13.97 -52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "038cae1c-7ad9-4e18-bc91-86c493ad98e1")
+		(uuid "017ac798-bd5d-4af1-aa14-32d7da2903c8")
 	)
 	(wire
 		(pts
-			(xy 100.33 90.17) (xy 118.11 90.17)
+			(xy 135.89 -26.67) (xy 135.89 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "092597d4-c590-474e-aa1a-622de8410a28")
+		(uuid "04d41b46-4451-49a8-9877-2e3e8597561b")
 	)
 	(wire
 		(pts
-			(xy 261.62 67.31) (xy 261.62 78.74)
+			(xy 309.88 -31.75) (xy 318.77 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0eacd9a4-fd99-43fe-ae2b-60212c444088")
+		(uuid "05be9531-7d42-4dc7-8b52-d11951b74af6")
 	)
 	(wire
 		(pts
-			(xy 72.39 67.31) (xy 74.93 67.31)
+			(xy 318.77 -26.67) (xy 318.77 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1de9fc4a-a358-45f4-bad1-6a676f7a318e")
+		(uuid "062ce288-6670-4e28-8bb0-fa6b8d48cec4")
 	)
 	(wire
 		(pts
-			(xy 125.73 67.31) (xy 128.27 67.31)
+			(xy 269.24 -59.69) (xy 278.13 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1df3a40e-e478-44d5-9660-60cf5b8545cb")
+		(uuid "07ecfd93-6285-4a3f-b076-75dd1a1f2872")
 	)
 	(wire
 		(pts
-			(xy 54.61 67.31) (xy 57.15 67.31)
+			(xy 196.85 -26.67) (xy 196.85 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25120a4a-a84b-4a7e-8090-713f82fddc6b")
+		(uuid "081ce2f3-b108-413a-bcbb-23c8ff987a6e")
 	)
 	(wire
 		(pts
-			(xy 267.97 59.69) (xy 275.59 59.69)
+			(xy -34.29 -52.07) (xy -50.8 -52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29fe95ce-12ce-4eeb-920c-69a5e1b8e20f")
+		(uuid "0c1dced3-87ba-4549-b52e-db027b3096e7")
 	)
 	(wire
 		(pts
-			(xy 90.17 67.31) (xy 92.71 67.31)
+			(xy 86.36 -59.69) (xy 95.25 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ccb30a7-6fb7-424a-9b3e-e26f2beb2553")
+		(uuid "0d3dbcc4-5c27-40ef-8ed5-35ac4bf510fc")
 	)
 	(wire
 		(pts
-			(xy 82.55 90.17) (xy 100.33 90.17)
+			(xy 66.04 -59.69) (xy 74.93 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e699b4d-20f2-4cc2-aa47-8e8708349fa7")
+		(uuid "0e1a93e8-7886-49e7-b5d3-374baaa6f421")
 	)
 	(wire
 		(pts
-			(xy 214.63 67.31) (xy 217.17 67.31)
+			(xy 228.6 -39.37) (xy 228.6 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3002245c-4681-491f-b415-315cf66b5a32")
+		(uuid "0fd39585-23bf-40ea-8ce7-f3897300ffc3")
 	)
 	(wire
 		(pts
-			(xy 171.45 59.69) (xy 189.23 59.69)
+			(xy 217.17 -26.67) (xy 217.17 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35fa777c-7446-47af-bb02-1055a9da9bba")
+		(uuid "17c26b48-1527-4a83-8a1a-165fa14b4dd1")
 	)
 	(wire
 		(pts
-			(xy 135.89 90.17) (xy 153.67 90.17)
+			(xy 86.36 -31.75) (xy 95.25 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36a4cf54-582b-4c62-850d-884bfe56af7e")
+		(uuid "1a18f2c1-bfc8-4280-a4c1-42927416ae9e")
 	)
 	(wire
 		(pts
-			(xy 250.19 67.31) (xy 261.62 67.31)
+			(xy 95.25 -31.75) (xy 95.25 -44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e8fcc95-2d0b-4bf1-83c8-e1604bfc0897")
+		(uuid "1b67a0a8-7c88-4e19-9a29-f1af88039789")
 	)
 	(wire
 		(pts
-			(xy 224.79 59.69) (xy 242.57 59.69)
+			(xy 228.6 -31.75) (xy 237.49 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4eb69272-1eed-496f-91b6-c098c9c664fe")
+		(uuid "1bca208c-d4b9-4d3f-807c-95dbcbb85490")
 	)
 	(wire
 		(pts
-			(xy 143.51 97.79) (xy 146.05 97.79)
+			(xy 106.68 -31.75) (xy 115.57 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52d2cb42-ea7f-4fb2-a256-cfc626813a39")
+		(uuid "2027a2e2-65e8-4aaa-ad00-0a85c438df89")
 	)
 	(wire
 		(pts
-			(xy 64.77 90.17) (xy 82.55 90.17)
+			(xy 309.88 -59.69) (xy 318.77 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5775fedb-7d20-49c6-bfcc-07c33df0dd69")
+		(uuid "220f3b43-5e77-4f7b-9480-9783329063a9")
 	)
 	(wire
 		(pts
-			(xy 143.51 67.31) (xy 146.05 67.31)
+			(xy 156.21 -26.67) (xy 156.21 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5801cce7-1b93-424e-a273-84ffba8278db")
+		(uuid "23158a85-432d-411b-a60c-a8f612172d23")
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 163.83 97.79)
+			(xy 86.36 -39.37) (xy 86.36 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61f0cdb3-d855-4aec-90c0-f238f1ba4339")
+		(uuid "27bad15f-45ba-48c9-a699-698fc2d5ade7")
 	)
 	(wire
 		(pts
-			(xy 207.01 59.69) (xy 224.79 59.69)
+			(xy 5.08 -59.69) (xy 13.97 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64540f05-7555-4ac5-9776-ecf831d7b89d")
+		(uuid "2bb0776a-fa64-4a9c-82a2-d72119e64c85")
 	)
 	(wire
 		(pts
-			(xy 35.56 78.74) (xy 35.56 97.79)
+			(xy 135.89 -31.75) (xy 135.89 -44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72ef2f8d-dd60-49be-b9fa-ee992780f638")
+		(uuid "2ef8d6b1-3908-415e-ab67-98ac908bd3eb")
 	)
 	(wire
 		(pts
-			(xy 64.77 59.69) (xy 82.55 59.69)
+			(xy 248.92 -39.37) (xy 248.92 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74284ad6-0204-436f-a69f-84b466fa3281")
+		(uuid "32730b99-ff74-4e34-a29c-d0149449d504")
 	)
 	(wire
 		(pts
-			(xy 21.59 67.31) (xy 39.37 67.31)
+			(xy 289.56 -31.75) (xy 298.45 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ed80a2c-3af5-4793-ad86-286fcb7054d7")
+		(uuid "32a49365-d097-4ac3-ad87-8b3206e20445")
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 153.67 59.69)
+			(xy -6.35 -26.67) (xy -6.35 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f1bdf04-93ad-4499-ba0e-0116b07edd59")
+		(uuid "3343d55e-8fbe-41af-af2b-8389def4b87a")
 	)
 	(wire
 		(pts
-			(xy 54.61 97.79) (xy 57.15 97.79)
+			(xy 13.97 -31.75) (xy 13.97 -44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "880cb840-9253-4800-92ad-869ecb04e064")
+		(uuid "3398e64e-cfd0-4e25-9133-a8bdbd828ce5")
 	)
 	(wire
 		(pts
-			(xy 35.56 97.79) (xy 39.37 97.79)
+			(xy -35.56 -59.69) (xy -26.67 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8861d0a2-c1dc-4f47-acc0-66c51a7c4696")
+		(uuid "37ebb694-9190-4b3f-af40-5e2e30d4dbf4")
 	)
 	(wire
 		(pts
-			(xy 171.45 90.17) (xy 267.97 90.17)
+			(xy 208.28 -31.75) (xy 217.17 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c740db9-b126-4723-87d6-2ddc7783fdb2")
+		(uuid "389fe982-66e8-4a78-a7da-ed7f186549cc")
 	)
 	(wire
 		(pts
-			(xy 118.11 59.69) (xy 135.89 59.69)
+			(xy -26.67 -26.67) (xy -26.67 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "930f0da2-2e39-489d-8b59-d5b6a8a07f80")
+		(uuid "38c71f8c-f72f-487d-8efe-49fe763aa21d")
 	)
 	(wire
 		(pts
-			(xy 107.95 97.79) (xy 110.49 97.79)
+			(xy 1.27 -52.07) (xy 6.35 -52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94bd7ce0-938e-445b-85f0-1e7ad609cf59")
+		(uuid "39f99a04-f029-404d-8684-da5d1c3891ad")
 	)
 	(wire
 		(pts
-			(xy 189.23 59.69) (xy 207.01 59.69)
+			(xy 127 -31.75) (xy 135.89 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a623cdb-aa10-4276-ba69-ba0cab6a0fee")
+		(uuid "4328a4ad-18d0-43b6-be16-c5fbec34f38a")
 	)
 	(wire
 		(pts
-			(xy 107.95 67.31) (xy 110.49 67.31)
+			(xy 25.4 -31.75) (xy 34.29 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c1d7450-be5c-426e-a3fe-88e77859683e")
+		(uuid "44296caa-93e7-4f75-8ad5-5711ed5a0ead")
 	)
 	(wire
 		(pts
-			(xy 100.33 59.69) (xy 118.11 59.69)
+			(xy 95.25 -26.67) (xy 95.25 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5055abe-f9f7-4266-aac5-e997ca7e6a41")
+		(uuid "454c3af4-6693-4c22-8b4d-ad2cd0e73bdc")
 	)
 	(wire
 		(pts
-			(xy 46.99 90.17) (xy 64.77 90.17)
+			(xy 115.57 -31.75) (xy 115.57 -44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac6910a8-5a52-4142-8a26-fafff1c6f95f")
+		(uuid "45c7155f-b956-404b-9808-9efe5b4602b3")
 	)
 	(wire
 		(pts
-			(xy 125.73 97.79) (xy 128.27 97.79)
+			(xy 248.92 -59.69) (xy 257.81 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad1ff23d-64cb-489b-98cf-fdfb59351005")
+		(uuid "474fbf12-ed53-4014-b78d-f68e64f19fbd")
 	)
 	(wire
 		(pts
-			(xy 82.55 59.69) (xy 100.33 59.69)
+			(xy -6.35 -31.75) (xy -6.35 -44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4c40257-978c-41f8-887f-a5576765b35c")
+		(uuid "4817dc35-3c3d-433d-bba6-b0a320d06485")
 	)
 	(wire
 		(pts
-			(xy 153.67 59.69) (xy 171.45 59.69)
+			(xy 163.83 -52.07) (xy 168.91 -52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5644068-6f8d-4076-a8d8-1343fac765de")
+		(uuid "4a2113d5-c2ea-4541-aeb2-12990ace1b35")
 	)
 	(wire
 		(pts
-			(xy 161.29 67.31) (xy 163.83 67.31)
+			(xy 339.09 -26.67) (xy 339.09 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5da49c7-baca-4d73-bac7-bd435b4901f8")
+		(uuid "4aa4b059-7991-404e-92d7-3bc7223ed85b")
 	)
 	(wire
 		(pts
-			(xy 90.17 97.79) (xy 92.71 97.79)
+			(xy 224.79 -52.07) (xy 229.87 -52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcea1a49-fc9a-425b-95de-1812ff23c211")
+		(uuid "4b20e37d-96df-4028-a1e4-e50f480b912c")
 	)
 	(wire
 		(pts
-			(xy 261.62 78.74) (xy 35.56 78.74)
+			(xy 285.75 -52.07) (xy 290.83 -52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c580db41-9e99-49bf-ad8c-3899c8f90628")
+		(uuid "4b52aad1-c3a3-4ded-b4d8-aa2fb1d97dd4")
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 171.45 90.17)
+			(xy 278.13 -31.75) (xy 278.13 -44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c603edd4-fcda-401a-9cc9-b3f75643d5ce")
+		(uuid "4c1c9300-e300-4020-b068-39599032960f")
 	)
 	(wire
 		(pts
-			(xy 118.11 90.17) (xy 135.89 90.17)
+			(xy 54.61 -31.75) (xy 54.61 -44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce522758-9542-4149-8fc9-06d6b1ebbb91")
+		(uuid "4f412c39-8fcd-4d5f-a6f3-c43354551a14")
 	)
 	(wire
 		(pts
-			(xy 232.41 67.31) (xy 234.95 67.31)
+			(xy 167.64 -31.75) (xy 176.53 -31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d11cc5a5-d8d3-4590-9c12-59b5155f5f63")
+		(uuid "4f92c448-c2b4-4b76-ae42-276b357d6e46")
 	)
 	(wire
 		(pts
-			(xy 242.57 59.69) (xy 267.97 59.69)
+			(xy 143.51 -52.07) (xy 148.59 -52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d384973c-1908-4bb0-b41b-33d9565bd589")
+		(uuid "5006be46-1e82-4698-9fe2-c318f157545c")
 	)
 	(wire
 		(pts
-			(xy 21.59 49.53) (xy 21.59 67.31)
+			(xy 167.64 -59.69) (xy 176.53 -59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd1140ab-4c63-4b9e-a6bc-1089f5082120")
+		(uuid "511b6321-5bda-4983-8cfc-f075f05350aa")
 	)
 	(wire
 		(pts
-			(xy 267.97 59.69) (xy 267.97 90.17)
+			(xy 318.77 -31.75) (xy 318.77 -44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6270050-a0dc-4d8c-87d9-b5abfafb16b2")
+		(uuid "51623e63-217b-485b-bb2d-6dcf06ee587f")
 	)
 	(wire
 		(pts
-			(xy 72.39 97.79) (xy 74.93 97.79)
+			(xy 326.39 -52.07) (xy 331.47 -52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f80b6ad3-440c-4bd0-b1bd-93f366e6a8e6")
+		(uuid "55bc03fc-ebf2-400e-a58a-2223269c911e")
 	)
 	(wire
 		(pts
-			(xy 46.99 59.69) (xy 64.77 59.69)
+			(xy 359.41 -31.75) (xy 359.41 -44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9cabeb9-9d10-443b-9f66-915f5c4e9fb3")
+		(uuid "5b07a969-5ce7-4fc8-8a6d-81846dc71088")
+	)
+	(wire
+		(pts
+			(xy 156.21 -31.75) (xy 156.21 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ccf1ba3-50ac-49f4-8a95-33edc8c65388")
+	)
+	(wire
+		(pts
+			(xy 147.32 -59.69) (xy 156.21 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d26ae5f-0f0e-4d8b-a027-8354a70cfa52")
+	)
+	(wire
+		(pts
+			(xy 25.4 -59.69) (xy 34.29 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f52ea9f-cb87-4ea8-ba8c-bfc806551668")
+	)
+	(wire
+		(pts
+			(xy 237.49 -31.75) (xy 237.49 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f92fea-743e-4417-9e2d-1197381bd618")
+	)
+	(wire
+		(pts
+			(xy 289.56 -39.37) (xy 289.56 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61164753-766c-4ea5-9451-5aadc1aef814")
+	)
+	(wire
+		(pts
+			(xy 147.32 -39.37) (xy 147.32 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6395018b-1b7b-41be-92ab-36251646a4fa")
+	)
+	(wire
+		(pts
+			(xy 187.96 -31.75) (xy 196.85 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648b56f0-ede1-4589-868c-2d5bb13813ba")
+	)
+	(wire
+		(pts
+			(xy -15.24 -31.75) (xy -6.35 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac1e69e-7b43-4408-880f-f604ec841576")
+	)
+	(wire
+		(pts
+			(xy 41.91 -52.07) (xy 46.99 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c254cd4-2bca-45c9-a79a-6255f8c9f038")
+	)
+	(wire
+		(pts
+			(xy 45.72 -59.69) (xy 54.61 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9a068e-0fa2-4fca-9422-538ae2db84f7")
+	)
+	(wire
+		(pts
+			(xy 13.97 -26.67) (xy 13.97 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e86e3d5-0b0f-47c5-ae0f-e0477e0d7a79")
+	)
+	(wire
+		(pts
+			(xy 106.68 -59.69) (xy 115.57 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e9e9d1-2bf3-4648-9406-df9e28c3f79a")
+	)
+	(wire
+		(pts
+			(xy 217.17 -31.75) (xy 217.17 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72631f48-20e1-47e5-b794-7cbba75c0092")
+	)
+	(wire
+		(pts
+			(xy 359.41 -26.67) (xy 359.41 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7292e1de-d6f6-4102-8a3c-d4f1da2a57f4")
+	)
+	(wire
+		(pts
+			(xy 45.72 -31.75) (xy 54.61 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "738e7e96-56ea-4809-92d5-86dfaa740975")
+	)
+	(wire
+		(pts
+			(xy 346.71 -52.07) (xy 351.79 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76903c58-cf45-4871-8e1d-a02bd76b94e8")
+	)
+	(wire
+		(pts
+			(xy 298.45 -26.67) (xy 298.45 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "795d0052-ec7b-4c50-a757-f5aa36f21977")
+	)
+	(wire
+		(pts
+			(xy 184.15 -52.07) (xy 189.23 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817f0215-0aa6-4f70-aac0-d4e9e57ca423")
+	)
+	(wire
+		(pts
+			(xy 66.04 -39.37) (xy 66.04 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863ddafb-4a44-467c-b9e7-8dbd78ed9282")
+	)
+	(wire
+		(pts
+			(xy 34.29 -31.75) (xy 34.29 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fde62e-6928-44e9-b95a-acd4f73e41f9")
+	)
+	(wire
+		(pts
+			(xy 5.08 -31.75) (xy 13.97 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95bc7ade-3421-4a26-ba14-a741dbc1d8e6")
+	)
+	(wire
+		(pts
+			(xy 176.53 -31.75) (xy 176.53 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961baedf-ebaa-41ed-8ed3-ea4e07ed7595")
+	)
+	(wire
+		(pts
+			(xy 350.52 -31.75) (xy 359.41 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c107b7-f353-4b87-bbba-7da941695526")
+	)
+	(wire
+		(pts
+			(xy -35.56 -39.37) (xy -35.56 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b074224-61fd-429d-a3c0-0fb03b43ece2")
+	)
+	(wire
+		(pts
+			(xy 269.24 -39.37) (xy 269.24 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f049699-3510-4e47-ba93-7c7330a73da9")
+	)
+	(wire
+		(pts
+			(xy -15.24 -59.69) (xy -6.35 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffda636-8418-466e-a680-3f7d6bfce4cc")
+	)
+	(wire
+		(pts
+			(xy 187.96 -59.69) (xy 196.85 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f5ef81-3535-4135-ae16-42b393b54861")
+	)
+	(wire
+		(pts
+			(xy 5.08 -39.37) (xy 5.08 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a231a85c-0f1a-4773-a041-3cfc4d2fd647")
+	)
+	(wire
+		(pts
+			(xy 237.49 -26.67) (xy 237.49 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a58cb8-2703-42bd-b9f3-8b5f61030d0a")
+	)
+	(wire
+		(pts
+			(xy 228.6 -59.69) (xy 237.49 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b6627c-f4da-4774-a8c9-f58fedc01456")
+	)
+	(wire
+		(pts
+			(xy 298.45 -31.75) (xy 298.45 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a9b7ab-d7cc-4ac8-8389-8e0beccc0d4e")
+	)
+	(wire
+		(pts
+			(xy 330.2 -39.37) (xy 330.2 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a937e585-5d1d-4a92-bd5b-d75516a0b1fb")
+	)
+	(wire
+		(pts
+			(xy 34.29 -26.67) (xy 34.29 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa83e19-f721-4122-8e4d-61f385871fa9")
+	)
+	(wire
+		(pts
+			(xy 289.56 -59.69) (xy 298.45 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4b049a-bb95-4f74-800a-1b692d7bde71")
+	)
+	(wire
+		(pts
+			(xy 248.92 -31.75) (xy 257.81 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8cc046-4c41-4a36-b9a5-8b0e72342f27")
+	)
+	(wire
+		(pts
+			(xy 82.55 -52.07) (xy 87.63 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b172adac-7e95-45dd-b3e0-42998cdb35cb")
+	)
+	(wire
+		(pts
+			(xy 330.2 -59.69) (xy 339.09 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1879271-4007-46d4-9bd4-5b37e1863054")
+	)
+	(wire
+		(pts
+			(xy 330.2 -31.75) (xy 339.09 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f72517-d75f-41f9-b047-9919251f8c72")
+	)
+	(wire
+		(pts
+			(xy 257.81 -31.75) (xy 257.81 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4380f17-513c-4123-bb56-888bd9b5a0f6")
+	)
+	(wire
+		(pts
+			(xy 269.24 -31.75) (xy 278.13 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5835958-a2b9-4fbe-82dd-acba9491cad7")
+	)
+	(wire
+		(pts
+			(xy 196.85 -31.75) (xy 196.85 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95f6adc-d4bd-4c67-a7c5-03448d8ebb52")
+	)
+	(wire
+		(pts
+			(xy 21.59 -52.07) (xy 26.67 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab02520-ce8f-43c3-b148-40e0c7859999")
+	)
+	(wire
+		(pts
+			(xy 62.23 -52.07) (xy 67.31 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4a864c-6e2b-4bb9-a89e-7a357b820c8b")
+	)
+	(wire
+		(pts
+			(xy -15.24 -39.37) (xy -15.24 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc16b3bb-062d-42c0-9043-05e0312844e9")
+	)
+	(wire
+		(pts
+			(xy 74.93 -26.67) (xy 74.93 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdcebfb0-0d7c-4df5-a485-adcbe91f91b9")
+	)
+	(wire
+		(pts
+			(xy 265.43 -52.07) (xy 270.51 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde1e710-1803-4b9e-9e14-f396a130d39c")
+	)
+	(wire
+		(pts
+			(xy 115.57 -26.67) (xy 115.57 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea0c66d-507b-4482-b089-1b2146f7e1c4")
+	)
+	(wire
+		(pts
+			(xy 278.13 -26.67) (xy 278.13 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31d16e6-04ba-48c1-a6ac-8a954db6b13f")
+	)
+	(wire
+		(pts
+			(xy 204.47 -52.07) (xy 209.55 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e8b882-3932-4f1c-8165-dd7b0b6d8f69")
+	)
+	(wire
+		(pts
+			(xy -26.67 -31.75) (xy -26.67 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9da6b2f-48d4-4996-8899-8c66dd891ecc")
+	)
+	(wire
+		(pts
+			(xy 309.88 -39.37) (xy 309.88 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac14190-81d1-4a87-9bc1-60f6270cee04")
+	)
+	(wire
+		(pts
+			(xy 176.53 -26.67) (xy 176.53 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5ed4d6-3534-4b31-aabf-5fa0a22e4e04")
+	)
+	(wire
+		(pts
+			(xy 74.93 -31.75) (xy 74.93 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf568f0c-2482-4210-a36d-a68bf1eb60d5")
+	)
+	(wire
+		(pts
+			(xy 187.96 -39.37) (xy 187.96 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13d3ecc-0aa2-4686-bcf6-5f0cdee6d802")
+	)
+	(wire
+		(pts
+			(xy 350.52 -39.37) (xy 350.52 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d549b68e-092f-4226-9c8e-393c799d6308")
+	)
+	(wire
+		(pts
+			(xy 54.61 -26.67) (xy 54.61 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d675beb9-7cfe-4c2a-b394-b6e57e661e48")
+	)
+	(wire
+		(pts
+			(xy 339.09 -31.75) (xy 339.09 -44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f214dd-9190-4ccc-a9cd-9fa38718816d")
+	)
+	(wire
+		(pts
+			(xy 127 -39.37) (xy 127 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95bf2ad-4d89-486a-bea1-d7ef276e7eef")
+	)
+	(wire
+		(pts
+			(xy 350.52 -59.69) (xy 359.41 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da89ab9d-329c-420a-94cf-b41d8031de76")
+	)
+	(wire
+		(pts
+			(xy 167.64 -39.37) (xy 167.64 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5cb8e9-83e8-49a6-964f-abf88e78e9f3")
+	)
+	(wire
+		(pts
+			(xy 208.28 -59.69) (xy 217.17 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea7f17d-178f-4774-b6e9-cc832b90cb2c")
+	)
+	(wire
+		(pts
+			(xy 102.87 -52.07) (xy 107.95 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e023f9b1-be79-4711-b679-f1dc56261820")
+	)
+	(wire
+		(pts
+			(xy 25.4 -39.37) (xy 25.4 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3edd899-2cca-4f16-9be5-96c9607ac53a")
+	)
+	(wire
+		(pts
+			(xy -35.56 -31.75) (xy -26.67 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52599d7-4e8b-4c69-9ff2-e6900545ad6a")
+	)
+	(wire
+		(pts
+			(xy 147.32 -31.75) (xy 156.21 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5698c6a-ecaa-44c6-b621-11cc0e105970")
+	)
+	(wire
+		(pts
+			(xy 66.04 -31.75) (xy 74.93 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e756402f-7d62-4b5d-bc88-d6373863dfe2")
+	)
+	(wire
+		(pts
+			(xy 257.81 -26.67) (xy 257.81 -31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75c807b-22a6-4f31-9d3a-6673f29ef1d7")
+	)
+	(wire
+		(pts
+			(xy 208.28 -39.37) (xy 208.28 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b38ccc-6489-45d1-9da1-328fc44c5caf")
+	)
+	(wire
+		(pts
+			(xy 45.72 -39.37) (xy 45.72 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81948ca-83b6-4588-a1df-d1ac157ec008")
+	)
+	(wire
+		(pts
+			(xy 245.11 -52.07) (xy 250.19 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec514f97-eb72-4c36-9418-08165bf24828")
+	)
+	(wire
+		(pts
+			(xy 306.07 -52.07) (xy 311.15 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67773d8-267d-44c0-9423-c5cf515b0a2b")
+	)
+	(wire
+		(pts
+			(xy 127 -59.69) (xy 135.89 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86e8182-7b5e-4ce2-a24f-f4eac13b927c")
+	)
+	(wire
+		(pts
+			(xy 123.19 -52.07) (xy 128.27 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb64f605-3700-422b-a8ab-e7ba9636a6b9")
+	)
+	(wire
+		(pts
+			(xy 106.68 -39.37) (xy 106.68 -59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6adeb6-453b-478d-8839-bcf65e09d8c1")
 	)
 	(global_label "LED"
 		(shape input)
-		(at 21.59 49.53 90)
+		(at -50.8 -52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8dc67ee5-a8db-4332-9dc1-fe8786b54334")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 43.0977 90)
+			(at -57.2323 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0572bdd3-0dc3-4b40-919b-4524fdb9c58c")
-		(property "Reference" "#PWR011"
-			(at 46.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.038 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "045dfa82-8fcc-485c-8143-22d88c75ae69")
-		)
-		(instances
-			(project ""
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bdd8e0e-f629-4f46-bf0b-890f8d8d91c0")
-		(property "Reference" "#PWR014"
-			(at 64.77 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.818 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d01a53e-5dfb-4458-852f-77893f419c17")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 153.67 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f8aa9fc-36a5-4d67-9e00-a49f52873813")
-		(property "Reference" "L14"
-			(at 153.67 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 153.67 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 154.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 154.94 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 171.958 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 153.67 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a25dbf42-8853-448a-8ff6-2f431cb26e36")
-		)
-		(pin "1"
-			(uuid "34ff6b68-dc8f-4c1f-9e04-874e97f50388")
-		)
-		(pin "3"
-			(uuid "e630a6fb-8cbe-44d3-8f64-9033b734bca8")
-		)
-		(pin "2"
-			(uuid "3fdf677b-1842-4e2a-ad27-220924c20150")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 207.01 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12f855c5-8fdc-482e-90fb-dd0958101740")
-		(property "Reference" "L18"
-			(at 207.01 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 207.01 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 208.28 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 225.298 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 207.01 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b1b2e626-a1b0-4c07-927b-f97a2eb21d73")
-		)
-		(pin "1"
-			(uuid "e79e1a9a-83b5-4159-93a8-a714155670d5")
-		)
-		(pin "3"
-			(uuid "930ef2c4-e380-4e3a-90e4-8b35846a2a4d")
-		)
-		(pin "2"
-			(uuid "ccb1e8bc-f1e1-42a3-9a80-2b88cd0b0754")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 171.45 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "140790a1-9eec-41ca-a32b-5919bdcdc7ce")
-		(property "Reference" "L15"
-			(at 171.45 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 171.45 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 172.72 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 172.72 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 189.738 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 171.45 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "27205dac-f5e2-4689-b954-f3b22668e720")
-		)
-		(pin "1"
-			(uuid "ac19c262-f2ea-45a8-b976-3463182bab3c")
-		)
-		(pin "3"
-			(uuid "25bc5fc4-a9b4-4f69-a37e-b3ca856dba62")
-		)
-		(pin "2"
-			(uuid "0a1899d3-bee4-4bbd-be7a-6550e96798a3")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.67 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18f94ece-ff5b-423f-870e-a2c47d0381a3")
-		(property "Reference" "#PWR023"
-			(at 153.67 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.718 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d01adf0-89fa-4088-9d0e-de75935b291a")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 189.23 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ead4ff6-a302-406d-8672-2329019aa057")
-		(property "Reference" "L17"
-			(at 189.23 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 189.23 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 190.5 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 207.518 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 189.23 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "56ef3408-9a52-433b-ba9e-8a6a05146bdb")
-		)
-		(pin "1"
-			(uuid "1ba5e316-cd4f-41d7-957c-5d1ba609f93b")
-		)
-		(pin "3"
-			(uuid "ac1ceca5-5508-457f-b532-5f8460f04b1c")
-		)
-		(pin "2"
-			(uuid "57ee6b51-14d1-490a-bbb4-9a4035a0ba1e")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 118.11 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2235f48c-b17a-4dd0-bdfe-300e4168557f")
-		(property "Reference" "L9"
-			(at 118.11 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 118.11 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 119.38 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 136.398 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 118.11 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "3d9faeb1-f0f4-4950-b58f-bb072b1d6cc2")
-		)
-		(pin "1"
-			(uuid "cddb248d-0c68-461c-af7c-5850707ed7a8")
-		)
-		(pin "3"
-			(uuid "2140996f-238f-43bb-945d-9f3a58c4d1f5")
-		)
-		(pin "2"
-			(uuid "94cc7cfa-4cbb-41f6-bba8-51f5463700e6")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "362bc081-3cde-4085-94d7-d75ac0483fa9")
-		(property "Reference" "#PWR016"
-			(at 82.55 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.598 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7a40214-2048-46f7-8eaa-d8402d62d231")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 82.55 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a7dd0ab-866f-4f26-82a2-a7c06b1ba635")
-		(property "Reference" "L5"
-			(at 82.55 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 82.55 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 83.82 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 83.82 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 100.838 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 82.55 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1242f3c7-0dc2-45a4-9ec7-6a8292c01c40")
-		)
-		(pin "1"
-			(uuid "7788989f-390c-4b74-ab87-7e2ef32cdb92")
-		)
-		(pin "3"
-			(uuid "3667eff2-99c3-441e-8c6a-e27e0d90c554")
-		)
-		(pin "2"
-			(uuid "84b115da-fada-4cb4-9cf2-5fc4664eed93")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 100.33 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f150a70-bcf3-4c17-b239-2c8c08fda0a7")
-		(property "Reference" "L8"
-			(at 100.33 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 100.33 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 101.6 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 101.6 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 118.618 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 100.33 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4a5f59f9-8a8f-424d-ace9-3854f4d2ebaf")
-		)
-		(pin "1"
-			(uuid "47e5056f-d2a0-41bc-bf73-9a62cbb42141")
-		)
-		(pin "3"
-			(uuid "c706fbfb-9843-452e-bab6-0d6e85b75505")
-		)
-		(pin "2"
-			(uuid "cf272891-11cb-445e-8029-0d3fe288cc36")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 171.45 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f5713cc-c61e-472a-810f-9694d2c68637")
-		(property "Reference" "L16"
-			(at 171.45 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 171.45 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 172.72 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 172.72 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 189.738 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 171.45 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ab8397b3-fbf9-4592-b0fa-6190d54d2b14")
-		)
-		(pin "1"
-			(uuid "49671a91-e8b4-4466-902e-845878b16670")
-		)
-		(pin "3"
-			(uuid "0b8cdd38-feed-43a0-8f52-7f6ea6a0b50c")
-		)
-		(pin "2"
-			(uuid "21387367-c1f8-4821-b156-9d0dbfe3d978")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41fba681-26fa-4da8-8a6c-965ecf5b3cf3")
-		(property "Reference" "#PWR027"
-			(at 189.23 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 192.278 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c63626c-1695-4104-ac8c-e162bbb04f06")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46d8e09d-fb1f-4623-973b-96b19334e162")
-		(property "Reference" "#PWR015"
-			(at 82.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.598 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6084866b-a918-4392-b647-a1365e4f8364")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51e4451d-7ac8-44c5-870e-b6c90d6c56dd")
-		(property "Reference" "#PWR013"
-			(at 64.77 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.818 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c973c15f-50bb-4790-adc9-7364d6ae6c5c")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 224.79 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "548488a6-2093-4073-9159-df04f163779b")
-		(property "Reference" "L19"
-			(at 224.79 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 224.79 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 226.06 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 243.078 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 224.79 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "78a21ae8-91de-4966-aedc-2282dda36a8f")
-		)
-		(pin "1"
-			(uuid "f4e1815e-ff10-48ac-b349-f401e959a233")
-		)
-		(pin "3"
-			(uuid "7aa0bd54-aa4d-4518-a0a5-bdda83e0a9d5")
-		)
-		(pin "2"
-			(uuid "ecfad25a-6800-496d-97bb-4766a61bf6f7")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 46.99 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54f14cb7-9a42-4843-bcea-d6448fe8d1c4")
-		(property "Reference" "L1"
-			(at 46.99 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 46.99 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 48.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 48.26 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 65.278 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 46.99 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "86124f3e-7197-47b8-98ed-c5f442bb9d47")
-		)
-		(pin "1"
-			(uuid "70903897-c2cc-4c94-9390-44ad2590c7f7")
-		)
-		(pin "3"
-			(uuid "0a83b925-9cfb-4c8b-a039-e2bbd1de7770")
-		)
-		(pin "2"
-			(uuid "6c4f2ff3-89b1-4b21-9e3a-f61aba2950ef")
-		)
-		(instances
-			(project ""
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 64.77 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56666fd6-9964-4447-9d60-7674f888303f")
-		(property "Reference" "L4"
-			(at 64.77 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 64.77 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 66.04 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 83.058 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 64.77 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "cd12c9fb-317d-42e6-94ee-57dd11170a8a")
-		)
-		(pin "1"
-			(uuid "538a74f7-8010-4473-822b-89b9a3bea9d9")
-		)
-		(pin "3"
-			(uuid "9da3a6e7-2c27-46f3-b0ee-b6a5a504d54e")
-		)
-		(pin "2"
-			(uuid "defeccfe-8d12-45ae-bd6a-33896ebdacd3")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59a95d67-a975-43eb-9b1b-5aac74885573")
-		(property "Reference" "#PWR018"
-			(at 100.33 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 103.378 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d63052e-b71f-4fe5-a235-ba018b93ef30")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d92931b-ee5c-4821-808d-a8a3238ee951")
-		(property "Reference" "#PWR019"
-			(at 118.11 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.158 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da2e1883-797f-4122-aad3-aefb0534ce0e")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR019")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 275.59 59.69 270)
+		(at 278.13 -59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "60a08c45-3242-4e5b-b7d4-948e6bd8ff31")
-		(property "Reference" "#PWR032"
-			(at 271.78 59.69 0)
+		(uuid "0382ffef-f43f-4f6c-8067-61a7880917fb")
+		(property "Reference" "#PWR044"
+			(at 278.13 -55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,16 +2099,15 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 279.4 59.6899 90)
+			(at 278.13 -64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 59.69 0)
+			(at 278.13 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 59.69 0)
+			(at 278.13 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 275.59 59.69 0)
+			(at 278.13 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,112 +2134,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "92f8f66d-4bcb-405f-b9c4-9aae8165c1ed")
-		)
-		(instances
-			(project ""
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 135.89 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65769f1e-64d8-4b40-97f0-35f8292fbb45")
-		(property "Reference" "L12"
-			(at 135.89 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 135.89 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 137.16 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 137.16 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 154.178 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 135.89 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "973b3314-7a07-4a17-a598-27c5d597f355")
-		)
-		(pin "1"
-			(uuid "eab9924b-4905-4039-a615-53c05e613bdc")
-		)
-		(pin "3"
-			(uuid "b5e64134-68c6-42d2-b2cc-9f30330e1817")
-		)
-		(pin "2"
-			(uuid "147d0f35-f9e3-452c-a08e-801478fe49e7")
+			(uuid "c479c2b8-7921-4164-b1f9-c851255891c2")
 		)
 		(instances
 			(project "clackintosh"
 				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L12")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 224.79 74.93 0)
+		(lib_id "power:VCC")
+		(at 196.85 -59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "735ed366-64ee-4aa2-9c81-308a1861f214")
+		(fields_autoplaced yes)
+		(uuid "050ee1c8-8be0-4176-a19f-3c17570f05ff")
 		(property "Reference" "#PWR029"
-			(at 224.79 81.28 0)
+			(at 196.85 -55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,8 +2164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 227.838 74.676 0)
+		(property "Value" "VCC"
+			(at 196.85 -64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 74.93 0)
+			(at 196.85 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 74.93 0)
+			(at 196.85 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,8 +2190,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 74.93 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 196.85 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2200,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "95ddaf3e-0281-4c4e-a269-f53ba673c291")
+			(uuid "0013d705-060c-463f-8693-2511365391d0")
 		)
 		(instances
 			(project "clackintosh"
@@ -2817,52 +2212,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 82.55 97.79 0)
+		(lib_id "Device:C")
+		(at 106.68 -35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c3fad36-ad91-44df-89ee-3edb609074c4")
-		(property "Reference" "L6"
-			(at 82.55 84.836 0)
+		(fields_autoplaced yes)
+		(uuid "05cb733a-89cb-4a4f-ba2d-9b8fe3dbbf4b")
+		(property "Reference" "C8"
+			(at 110.49 -36.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED_SK6812MINI"
-			(at 82.55 87.376 0)
+		(property "Value" "C"
+			(at 110.49 -34.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 83.82 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 83.82 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 100.838 107.95 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 107.6452 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,8 +2248,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5149201"
-			(at 82.55 87.884 0)
+		(property "Datasheet" "~"
+			(at 106.68 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,38 +2257,60 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "93b8d600-1a3c-4601-9b00-e0b73008c5dc")
-		)
-		(pin "1"
-			(uuid "38ce220b-7d2d-40a9-84b3-e883204f6678")
-		)
-		(pin "3"
-			(uuid "f78aa475-ff5c-4fe7-836a-d5879e760f73")
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "ad93b8c5-5971-4174-b1dc-4a6a5ee37473")
+			(uuid "af017e52-e71c-40cf-bf34-ca8997207015")
+		)
+		(pin "1"
+			(uuid "f340833d-287a-448f-999c-9337cb575468")
 		)
 		(instances
 			(project "clackintosh"
 				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 105.41 0)
+		(lib_id "Device:C")
+		(at 127 -35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8f3ae184-af1a-404e-aaa4-0cf0eb28521c")
-		(property "Reference" "#PWR022"
-			(at 135.89 111.76 0)
+		(fields_autoplaced yes)
+		(uuid "096c7f1f-b0ad-4187-9641-522300869433")
+		(property "Reference" "C9"
+			(at 130.81 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 130.81 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 127.9652 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,16 +2318,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 138.938 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 105.41 0)
+		(property "Datasheet" "~"
+			(at 127 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,17 +2327,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 135.89 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 105.41 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,112 +2337,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "6634eb25-80ff-4d1f-8315-9fcae4869efa")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 100.33 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96c7f615-5129-4c22-99e3-f222ad20a30f")
-		(property "Reference" "L7"
-			(at 100.33 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 100.33 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 101.6 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 101.6 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 118.618 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 100.33 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5c8f489b-c491-4b82-b4dc-f81c1954ab8e")
-		)
-		(pin "1"
-			(uuid "07df1f0f-a648-4e64-83fc-1a1ac4ee575f")
-		)
-		(pin "3"
-			(uuid "356d7948-900e-4975-9830-88f85ecbdab5")
+			(uuid "5e1c7978-2d4d-4d98-92c2-8041b7785492")
 		)
 		(pin "2"
-			(uuid "f46d62e6-3ce4-450b-ae73-ff6c13df4939")
+			(uuid "b1499dcd-5b55-4642-81e7-44f6071e52ba")
 		)
 		(instances
 			(project "clackintosh"
 				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 100.33 74.93 0)
+		(lib_id "power:VCC")
+		(at 74.93 -59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c7188c4-a5d2-4f36-ac35-885fd6348263")
+		(fields_autoplaced yes)
+		(uuid "0b39cf42-07b2-46bf-ab17-5e427053c573")
 		(property "Reference" "#PWR017"
-			(at 100.33 81.28 0)
+			(at 74.93 -55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,8 +2370,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 103.378 74.676 0)
+		(property "Value" "VCC"
+			(at 74.93 -64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +2379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 74.93 0)
+			(at 74.93 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +2388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 74.93 0)
+			(at 74.93 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,8 +2396,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 74.93 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 74.93 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +2406,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "930cf10f-b3d2-4ff2-a8cf-13bd84ac344b")
+			(uuid "91c1f309-83ff-4f79-ae61-dcf6d66ccaaa")
 		)
 		(instances
 			(project "clackintosh"
@@ -3115,32 +2418,440 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 64.77 67.31 0)
+		(lib_id "power:GND")
+		(at -26.67 -26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4b34cbf-a178-4d3f-89c0-c3493be567dc")
-		(property "Reference" "L3"
-			(at 64.77 54.356 0)
+		(fields_autoplaced yes)
+		(uuid "0e0a2581-6d58-4c90-8bb9-5f41eaacf63d")
+		(property "Reference" "#PWR037"
+			(at -26.67 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -26.67 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED_SK6812MINI"
-			(at 64.77 56.896 0)
+		(property "Footprint" ""
+			(at -26.67 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -26.67 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -26.67 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2adb277a-42b6-4741-897f-e91e4ac96173")
+		)
+		(instances
+			(project ""
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 25.4 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f1fe2cf-314d-4b32-b54f-b9429eb8acb3")
+		(property "Reference" "C4"
+			(at 29.21 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 29.21 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 26.3652 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 25.4 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "302e9735-3905-4d4c-a748-60110c0bea87")
+		)
+		(pin "1"
+			(uuid "184d2495-2f29-4b4b-bebe-b370895c795d")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 309.88 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12811edf-24e1-41d8-b63c-570b4d14b270")
+		(property "Reference" "C18"
+			(at 313.69 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 313.69 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 310.8452 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 309.88 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed712173-04fc-4afc-b8e3-644bc19d3f74")
+		)
+		(pin "1"
+			(uuid "4fa72228-42bd-45e4-9508-ee90d682d97e")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 248.92 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "128a3783-4cd1-4730-a5ba-e14d68df261f")
+		(property "Reference" "C15"
+			(at 252.73 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 252.73 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 249.8852 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 248.92 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a75c2ba0-c088-4c28-bc09-15b745fb3efe")
+		)
+		(pin "2"
+			(uuid "81f78cb5-76e7-4083-8f99-bd8c7e999f7d")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 13.97 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15a0bdd4-3b25-4674-86d5-4c95a5c9ffe1")
+		(property "Reference" "#PWR011"
+			(at 13.97 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 13.97 -64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 66.04 74.93 0)
+		(property "Footprint" ""
+			(at 13.97 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 13.97 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8765603f-21e4-436d-9aa0-6ed0c8f05ed2")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 298.45 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15dd9915-0af6-4275-b115-057a37abe61a")
+		(property "Reference" "#PWR046"
+			(at 298.45 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 298.45 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 298.45 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6dfc7a3-1e8f-4645-88a6-1bbe1f29ba2c")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 298.45 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "169733df-b8a5-443e-a937-b36ef12b84ee")
+		(property "Reference" "L17"
+			(at 288.036 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 288.036 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 299.72 -44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,8 +2860,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 66.04 78.486 0)
+		(property "Datasheet" ""
+			(at 300.99 -42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,17 +2870,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 83.058 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 64.77 57.404 0)
+		(property "Description" ""
+			(at 298.45 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,37 +2880,56 @@
 			)
 		)
 		(pin "4"
-			(uuid "1130fbf2-a304-4b98-97b2-be3135cc44c7")
-		)
-		(pin "1"
-			(uuid "fdc30775-f70b-4851-8acd-cad791cf34ba")
+			(uuid "c0feb8f2-3ac6-46c5-abd2-034a02d67758")
 		)
 		(pin "3"
-			(uuid "d82c477c-e726-45a1-a77c-ecc29fed831f")
+			(uuid "1a9e6fdc-53e4-49cb-b5ed-f7586edca4c4")
+		)
+		(pin "1"
+			(uuid "60f251ed-b601-462e-a745-50294209a8bb")
 		)
 		(pin "2"
-			(uuid "6b38551b-e13c-4b34-b404-1b1f30206ef0")
+			(uuid "77f8c787-d5f1-4671-b8f5-95effee50229")
 		)
 		(instances
 			(project "clackintosh"
 				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L3")
+					(reference "L17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 153.67 105.41 0)
+		(lib_id "Device:C")
+		(at 228.6 -35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb6d5d8c-a36d-43b3-bea8-04afc6f25016")
-		(property "Reference" "#PWR024"
-			(at 153.67 111.76 0)
+		(fields_autoplaced yes)
+		(uuid "1b997383-2653-4fee-9675-992d1ac1260d")
+		(property "Reference" "C14"
+			(at 232.41 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 232.41 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 229.5652 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,80 +2937,76 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 156.718 105.156 0)
+		(property "Datasheet" "~"
+			(at 228.6 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba923409-1b59-40d6-969b-05bd15486911")
+		)
+		(pin "1"
+			(uuid "fb12b361-c5cf-4876-a30b-9ad81f3d1e82")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at -26.67 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d85118e-d891-4724-95ce-b1b4f262f9a0")
+		(property "Reference" "L1"
+			(at -37.084 -46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 153.67 105.41 0)
+		(property "Value" "SK6812MINI-E"
+			(at -37.084 -44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at -25.4 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae5da5cc-d808-48d6-8f57-97ca40b7d383")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 153.67 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcb0774d-0625-4697-998a-7e8a56b597e2")
-		(property "Reference" "L13"
-			(at 153.67 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 153.67 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 154.94 74.93 0)
+			(at -24.13 -42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,27 +3015,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 154.94 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 171.958 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 153.67 57.404 0)
+		(property "Description" ""
+			(at -26.67 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,37 +3025,56 @@
 			)
 		)
 		(pin "4"
-			(uuid "2702a7e8-8607-457e-9ae3-52c3b1cde0b1")
-		)
-		(pin "1"
-			(uuid "03cf157d-1245-4be8-bb57-6578075834aa")
+			(uuid "9554d3b1-707f-4925-91c5-06f8bdf17151")
 		)
 		(pin "3"
-			(uuid "173c851a-9ff3-48ca-9947-a62db5d54259")
+			(uuid "b818c467-a71d-4bb0-b179-2e813912a56f")
+		)
+		(pin "1"
+			(uuid "e56d65eb-7661-409d-923e-9c725d784607")
 		)
 		(pin "2"
-			(uuid "74d4f355-452c-4f37-9336-776579892e2f")
+			(uuid "523f890d-b8c0-4266-a423-1d119251c261")
 		)
 		(instances
-			(project "clackintosh"
+			(project ""
 				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L13")
+					(reference "L1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 207.01 74.93 0)
+		(lib_id "Device:C")
+		(at 86.36 -35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be530c46-68f8-4949-9ede-213aae823bdd")
-		(property "Reference" "#PWR028"
-			(at 207.01 81.28 0)
+		(fields_autoplaced yes)
+		(uuid "249a096b-1fd0-495f-a756-5806ddd9339c")
+		(property "Reference" "C7"
+			(at 90.17 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 90.17 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 87.3252 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,16 +3082,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 210.058 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 74.93 0)
+		(property "Datasheet" "~"
+			(at 86.36 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,17 +3091,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 207.01 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 74.93 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.36 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,268 +3101,113 @@
 			)
 		)
 		(pin "1"
-			(uuid "97314e20-7cf0-4e43-b714-ee4455301812")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 242.57 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c226ca51-2a84-413d-ae18-33b1d847ce3e")
-		(property "Reference" "#PWR030"
-			(at 242.57 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.618 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ce4219f-1aaf-4c8e-811f-3d34e834fd0b")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c89a34ce-8284-47e0-9f4a-c750f8122239")
-		(property "Reference" "#PWR021"
-			(at 135.89 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.938 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bbf579f-9b94-49ce-aa64-550e56c338ee")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 135.89 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9e69789-4617-4b87-9404-1d675d0af0d6")
-		(property "Reference" "L11"
-			(at 135.89 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 135.89 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 137.16 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 137.16 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 154.178 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 135.89 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ad4c1142-9532-4fc1-aebd-e39908e76283")
-		)
-		(pin "1"
-			(uuid "ffd36bd1-b406-412a-b079-a02577b5845f")
-		)
-		(pin "3"
-			(uuid "2a175243-6d6b-4c1a-9dc9-4c5aa4f9d214")
+			(uuid "c4debf89-adca-4965-b61d-2ef2c72a6a13")
 		)
 		(pin "2"
-			(uuid "5b4fc186-2920-490c-86da-527898957605")
+			(uuid "d27126c5-2403-488b-afb5-fbd3ae0ec68d")
 		)
 		(instances
 			(project "clackintosh"
 				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 118.11 97.79 0)
+		(lib_id "power:GND")
+		(at 54.61 -26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d0434e59-5c30-4ae1-b845-1e08aa9aca16")
+		(fields_autoplaced yes)
+		(uuid "25c7b77f-b236-473f-ac0a-e25dabb3261c")
+		(property "Reference" "#PWR016"
+			(at 54.61 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88551d58-6fcb-439e-90a1-c2bf124f6d2c")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 156.21 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25dfadd8-4bc1-495a-9249-17516dfc03fe")
 		(property "Reference" "L10"
-			(at 118.11 84.836 0)
+			(at 145.796 -46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED_SK6812MINI"
-			(at 118.11 87.376 0)
+		(property "Value" "SK6812MINI-E"
+			(at 145.796 -44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 119.38 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 119.38 108.966 0)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 157.48 -44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,17 +3216,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 136.398 107.95 0)
+		(property "Datasheet" ""
+			(at 158.75 -42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5149201"
-			(at 118.11 87.884 0)
+		(property "Description" ""
+			(at 156.21 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,16 +3236,16 @@
 			)
 		)
 		(pin "4"
-			(uuid "d890d85d-981c-4261-9fc6-12e979044fe1")
-		)
-		(pin "1"
-			(uuid "881c5ca2-9f01-4fa1-babe-aadb5b63a4a4")
+			(uuid "212b9352-a247-41b0-af90-c3d331574480")
 		)
 		(pin "3"
-			(uuid "68ba3341-b38f-4248-94ab-30a12c736d93")
+			(uuid "e20aff0c-9d3f-4350-80fd-59aa694c9c4e")
+		)
+		(pin "1"
+			(uuid "eb74bba7-c1ef-4138-88f2-d80c4f36c9b9")
 		)
 		(pin "2"
-			(uuid "2443e46b-1abc-4ec4-9b64-a3d34345385b")
+			(uuid "622d2a78-6669-4ee1-a984-1442d962ae51")
 		)
 		(instances
 			(project "clackintosh"
@@ -3712,15 +3258,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 74.93 0)
+		(at 217.17 -26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d74d7b03-a406-4eb3-b5f1-3b85d3d53692")
-		(property "Reference" "#PWR025"
-			(at 171.45 81.28 0)
+		(fields_autoplaced yes)
+		(uuid "25e9d49d-619a-467d-92d5-909f9f8f52f4")
+		(property "Reference" "#PWR039"
+			(at 217.17 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3276,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 174.498 74.676 0)
+			(at 217.17 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,7 +3284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 74.93 0)
+			(at 217.17 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +3293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 74.93 0)
+			(at 217.17 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +3302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 74.93 0)
+			(at 217.17 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +3311,3763 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcbb17db-37df-415a-9606-9dcec88b9b7b")
+			(uuid "b032e9ba-a7ff-4e0a-a1d1-83b42ec5725e")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28498c12-3ff3-4a36-8cf7-900fbf527253")
+		(property "Reference" "#PWR028"
+			(at 176.53 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9c9f719-76fc-45bb-8772-e5850ef7f42c")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c55527e-5f67-491f-b4a3-a9c46c141725")
+		(property "Reference" "#PWR018"
+			(at 74.93 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a519f35c-e65a-4a2e-92e3-bba0b66d8237")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 269.24 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f9057ca-1e8b-4e50-8a11-59707b920c3e")
+		(property "Reference" "C16"
+			(at 273.05 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 273.05 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 270.2052 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53d52311-2c1f-4a52-b910-4f236d8ba496")
+		)
+		(pin "1"
+			(uuid "f3949207-033c-4876-941a-00bcb3d3d4aa")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.77 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "331112a8-aa5a-4b95-9197-0c8e101b2ea7")
+		(property "Reference" "#PWR051"
+			(at 318.77 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ad6fc10-bdcd-4a10-8972-d6d358a1d37d")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 13.97 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "396a9658-5d3c-4f09-9594-477ef39d2414")
+		(property "Reference" "#PWR012"
+			(at 13.97 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 13.97 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 13.97 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0de9e992-1d59-4ad3-904b-ecf153bbcca8")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 135.89 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c5dff76-58c4-40ee-b7af-e8f6cd03b410")
+		(property "Reference" "L9"
+			(at 125.476 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 125.476 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 137.16 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "391ce941-aec1-42a1-8615-150fc3aba5ba")
+		)
+		(pin "3"
+			(uuid "68455db6-dd8c-435e-8e86-7dc0dd71ed33")
+		)
+		(pin "1"
+			(uuid "095c5bc9-7c40-4d98-8472-2a802174f2fa")
+		)
+		(pin "2"
+			(uuid "762b648d-c7bd-4252-97ab-d72257a39928")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 217.17 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cf79f63-0807-4dea-9bc6-433cbfb78294")
+		(property "Reference" "L13"
+			(at 206.756 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 206.756 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 218.44 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "33c8c229-bf99-4904-9037-4783ff8ed248")
+		)
+		(pin "3"
+			(uuid "cd1affde-cd0c-4327-b004-617f7e9df56e")
+		)
+		(pin "1"
+			(uuid "d2bcb52b-e753-4c74-b712-dce415b73c43")
+		)
+		(pin "2"
+			(uuid "d7cbe937-5bb0-43b6-9acb-e7e30115c74b")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 196.85 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43e853b4-c4af-4e50-8d21-c2408331c8ba")
+		(property "Reference" "L12"
+			(at 186.436 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 186.436 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 198.12 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d958f70a-a952-473a-b96d-a128fb1b1945")
+		)
+		(pin "3"
+			(uuid "ed1e77f4-ecb1-4758-aef4-83a63f603eca")
+		)
+		(pin "1"
+			(uuid "dcff7035-e778-420f-ae1a-caf15c2c2e6d")
+		)
+		(pin "2"
+			(uuid "b232afaf-651b-4bc1-8766-f4c99ea1a986")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 257.81 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48496331-eb2b-4a6d-82d3-c12daa34d1f2")
+		(property "Reference" "#PWR042"
+			(at 257.81 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 257.81 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 257.81 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dac854ee-1af1-4c2f-bd9c-9ca9a6d03972")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 13.97 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e2e558b-b498-4bba-99f6-fe3a4fa7403a")
+		(property "Reference" "L3"
+			(at 3.556 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 3.556 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 15.24 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 13.97 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "64708b8d-653e-4c17-bea9-c9a1b56e5a38")
+		)
+		(pin "3"
+			(uuid "2bd4120a-96ab-4eb1-bfec-94c38447eea8")
+		)
+		(pin "1"
+			(uuid "384ec6b1-4fe5-4f8c-8ccf-8f5d603f0ab1")
+		)
+		(pin "2"
+			(uuid "e8aefed8-aeea-4a39-bc42-e4c7114a5161")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 330.2 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e89d71a-c402-4e3e-a22d-2081a880eb40")
+		(property "Reference" "C19"
+			(at 334.01 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 334.01 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 331.1652 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 330.2 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc17b451-51af-4390-a346-87fdf2547025")
+		)
+		(pin "2"
+			(uuid "0ccff6e4-4c9f-4e82-bebc-0dfa69b1c59b")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "525db88b-e344-40d4-9f4e-eff0e3603926")
+		(property "Reference" "#PWR043"
+			(at 257.81 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03592f71-addb-4a32-b94a-e0cc1b56e541")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 95.25 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "532f6251-42af-4a42-8e9e-abfb5f65026b")
+		(property "Reference" "#PWR019"
+			(at 95.25 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 95.25 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 95.25 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffab300d-c149-423c-b67c-3009c0b6518c")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "543a7511-6bef-4fe6-84ea-3e38ec6f01c2")
+		(property "Reference" "#PWR014"
+			(at 34.29 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b822612e-aaea-4d2f-b991-44ed86bf0d30")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 5.08 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a828051-3acf-406e-952c-ddd18024dc72")
+		(property "Reference" "C3"
+			(at 8.89 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 8.89 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 6.0452 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 5.08 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 5.08 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caa2f109-9341-415a-b731-a4716fa97c0c")
+		)
+		(pin "2"
+			(uuid "5f648e69-d3df-45d5-ae2c-95ccf328ec14")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61e1134b-999e-4739-a65b-246c38f17e24")
+		(property "Reference" "C11"
+			(at 171.45 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 171.45 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 168.6052 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a009127f-301b-4d28-a293-216806e1fed6")
+		)
+		(pin "2"
+			(uuid "7dc517a3-2f77-4209-83e7-0fcb6a96a01c")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at -35.56 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "631d941d-6e00-44bf-9757-2e575e651ddf")
+		(property "Reference" "C1"
+			(at -31.75 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at -31.75 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at -34.5948 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -35.56 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at -35.56 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2072199b-7cdf-4e68-9ebf-ad4260b1ab1f")
+		)
+		(pin "2"
+			(uuid "918dc86a-a882-42b0-9d80-c9d12467d2bb")
+		)
+		(instances
+			(project ""
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 237.49 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c8114eb-d013-4230-9fa5-d1ee4d2e77e9")
+		(property "Reference" "#PWR040"
+			(at 237.49 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 237.49 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 237.49 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a225273-7bd1-46b8-9e77-205771c8e81d")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 318.77 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71a9312b-5eb7-4164-9ef4-7630e1eeca9e")
+		(property "Reference" "#PWR050"
+			(at 318.77 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 318.77 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 318.77 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "692814dd-81d2-4ddc-8b1d-2e8f9fa5c732")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 115.57 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7869fb63-2cc8-490f-94db-57d5e137afd7")
+		(property "Reference" "#PWR021"
+			(at 115.57 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 115.57 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 115.57 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d9878b5-a2a3-4131-b525-a381b3794c0f")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79016226-6a3e-415d-ae08-2dcf8dc872a4")
+		(property "Reference" "#PWR045"
+			(at 278.13 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304d2345-b429-43b1-ae8b-3181be3cfd50")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 115.57 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79cb3fa0-4fc4-489e-bbeb-5f24c4929ca5")
+		(property "Reference" "L8"
+			(at 105.156 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 105.156 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 116.84 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d5c8cc0c-fbc7-4bcc-8806-8974d7c63aff")
+		)
+		(pin "3"
+			(uuid "e3ec5b86-af1e-4e30-a106-277cc09e77e5")
+		)
+		(pin "1"
+			(uuid "c5875820-65da-4829-a407-6b9faf1b47b1")
+		)
+		(pin "2"
+			(uuid "e7fc5fdb-6fd4-4612-8a5f-e846e1222728")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8310c334-be53-4bfa-b9be-b85d065bc2bc")
+		(property "Reference" "#PWR020"
+			(at 95.25 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f9de099-6e07-4989-988e-84f1d687c8cf")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 54.61 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88335411-bbe8-4797-9e14-421a9ecfddfc")
+		(property "Reference" "#PWR015"
+			(at 54.61 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 54.61 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 54.61 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e877590-db7b-474e-9dd7-10797196181e")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 34.29 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d86c53c-dad9-4e1b-a231-a97e8337160e")
+		(property "Reference" "L4"
+			(at 23.876 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 23.876 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 35.56 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ef26806f-9e88-4805-a399-3bf05ce3550e")
+		)
+		(pin "3"
+			(uuid "8fc96aec-528c-4167-851a-0b830a83744c")
+		)
+		(pin "1"
+			(uuid "f4c65f01-c8b7-4142-8880-87ce93bf6c15")
+		)
+		(pin "2"
+			(uuid "5ab2ff4d-7bfd-445a-9b27-3da4ea2b986f")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 350.52 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9339966a-c10e-4728-8948-27c30dc98c8f")
+		(property "Reference" "C20"
+			(at 354.33 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 354.33 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 351.4852 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 350.52 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54a602ff-0476-4f80-95fb-ec33288b4737")
+		)
+		(pin "1"
+			(uuid "c5b43f02-d89c-45bb-9595-a74dd476b84a")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 237.49 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94aa5766-64a9-4f1c-ae0b-2d4a57397343")
+		(property "Reference" "L14"
+			(at 227.076 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 227.076 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 238.76 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ea8ccab3-1875-4ec3-8ca5-6aeeb6553152")
+		)
+		(pin "3"
+			(uuid "45a1f39b-2aee-4b1b-96c3-3b430cd57b5c")
+		)
+		(pin "1"
+			(uuid "1ecebca7-2bf4-4003-ba13-d05f3a11f5a5")
+		)
+		(pin "2"
+			(uuid "9acbc7b9-2fda-4c2f-9da8-5b2b8be115c6")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 54.61 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "953ec13a-2bfb-4b60-a758-e59e0af93059")
+		(property "Reference" "L5"
+			(at 44.196 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 44.196 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 55.88 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2f51b0c6-baa3-4398-b146-bce6142ff5a0")
+		)
+		(pin "3"
+			(uuid "ebed9791-4950-4d2e-ae8f-dff2b3f2a631")
+		)
+		(pin "1"
+			(uuid "58058f1a-66a2-43e7-b930-757b4419d0dd")
+		)
+		(pin "2"
+			(uuid "a7433c0f-aee4-4fc7-a0cf-8b245bab775e")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 298.45 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a02c0d8c-43e7-4bd7-b9ce-af19a0e4ec45")
+		(property "Reference" "#PWR049"
+			(at 298.45 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 298.45 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 298.45 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c786fc9a-3821-4060-baa6-fd82b2fcc98d")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at -26.67 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3d73fab-2ae2-45d9-b8a5-3b6de59efd5f")
+		(property "Reference" "#PWR047"
+			(at -26.67 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at -26.67 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -26.67 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -26.67 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at -26.67 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70d85cf7-2dff-4b68-84ae-65e1511c041e")
+		)
+		(instances
+			(project ""
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 135.89 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a561a18d-ddf9-43d1-961d-49a15fb4c8e3")
+		(property "Reference" "#PWR023"
+			(at 135.89 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 135.89 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 135.89 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed60c35d-7edb-44a2-ba34-d34a1857b0bf")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 176.53 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a575fca6-9a83-4346-bf85-e02830c157d8")
+		(property "Reference" "L11"
+			(at 166.116 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 166.116 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 177.8 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "35c13670-5856-4669-8158-aad6683053ce")
+		)
+		(pin "3"
+			(uuid "fcc34282-34a0-478e-a02a-c65a8203f835")
+		)
+		(pin "1"
+			(uuid "5865cfad-512d-4219-a08c-7b842a5e2fce")
+		)
+		(pin "2"
+			(uuid "143151a2-ed84-446b-92b6-2b1dfeb212d0")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 217.17 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abbebba4-fe88-4613-bb88-5a62ffd879dd")
+		(property "Reference" "#PWR032"
+			(at 217.17 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 217.17 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 217.17 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b104d7f-077c-44b6-b9af-98863c7a94a4")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 339.09 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad37ec17-eaa4-44b7-bcc7-60e7648a1303")
+		(property "Reference" "#PWR052"
+			(at 339.09 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 339.09 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 339.09 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "807246cb-2797-4c5d-a52d-d138031168fa")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 74.93 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0a5e879-d52a-4b3e-9b9d-b89a07472dc6")
+		(property "Reference" "L6"
+			(at 64.516 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 64.516 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 76.2 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1edf7789-a665-41da-aff5-382e87789e5b")
+		)
+		(pin "3"
+			(uuid "e746f913-7684-4def-9e92-8d5bff890401")
+		)
+		(pin "1"
+			(uuid "132335ef-c07f-41b1-ab90-09ee65a732db")
+		)
+		(pin "2"
+			(uuid "203713fd-d268-405a-b5ab-7e4762e200b9")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 359.41 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2a9ca14-56c3-4dc1-836c-373376d558ab")
+		(property "Reference" "L20"
+			(at 348.996 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 348.996 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 360.68 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 359.41 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8c9615c0-94b5-492d-a15f-008eeda10c50")
+		)
+		(pin "3"
+			(uuid "71c02575-a3a6-412e-b604-dc387297920a")
+		)
+		(pin "1"
+			(uuid "b8215992-a2e0-4501-89e5-5dd17d1405ca")
+		)
+		(pin "2"
+			(uuid "54acb03e-fa45-498a-a05d-7261a3316c08")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 34.29 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3bf83cf-d34c-4cec-9bc4-bda6cd3014b3")
+		(property "Reference" "#PWR013"
+			(at 34.29 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 34.29 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 34.29 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73f81ed7-7017-4ae9-876c-de5c3d0bc059")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4782fe9-390b-4a39-8c85-7a1b4506c603")
+		(property "Reference" "C10"
+			(at 151.13 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 151.13 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 148.2852 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3b1bfa6-5f58-45e0-879e-d0c1f22e70bb")
+		)
+		(pin "1"
+			(uuid "6f6e56a0-91f8-456e-b5bf-2baca592f5f6")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6f4393b-17c9-42c8-98ce-aad16dc1ca6f")
+		(property "Reference" "C6"
+			(at 69.85 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 69.85 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 67.0052 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09a484fc-87a9-437b-b777-1f2b4e183782")
+		)
+		(pin "1"
+			(uuid "b2600376-9b89-4e29-8a1f-a43e5e575e38")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at -15.24 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7a59479-6943-4156-954c-32fbfddd6cac")
+		(property "Reference" "C2"
+			(at -11.43 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at -11.43 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at -14.2748 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -15.24 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at -15.24 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18e1dfe4-c60c-460c-802d-b3c16778abc9")
+		)
+		(pin "1"
+			(uuid "aef77166-4567-4504-badc-b527b59367bb")
+		)
+		(instances
+			(project ""
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 339.09 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8c65f12-7081-449f-9b60-a6636deec6d9")
+		(property "Reference" "L19"
+			(at 328.676 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 328.676 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 340.36 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2d00a1ec-8335-46b8-80e5-a368b065de23")
+		)
+		(pin "3"
+			(uuid "35012b69-daa7-4925-a1d0-9a6c9dab2421")
+		)
+		(pin "1"
+			(uuid "41718dca-2a17-42de-b5b3-e1bdacea795d")
+		)
+		(pin "2"
+			(uuid "f7bbbcb5-1401-4ef2-aeb8-b51933ad2cdc")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 318.77 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b90a9339-8bd4-4692-b50b-594f38569a1d")
+		(property "Reference" "L18"
+			(at 308.356 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 308.356 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 320.04 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 318.77 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2a1d19b0-2c1b-4ea1-a31a-a57cf705f24b")
+		)
+		(pin "3"
+			(uuid "03895333-fb32-4df4-8eda-105bcb9ef628")
+		)
+		(pin "1"
+			(uuid "f80067ad-b36a-4370-8230-763e710f4430")
+		)
+		(pin "2"
+			(uuid "6c288801-09e4-4c32-81e2-8bc79aedbe93")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b93cba74-50e9-4a96-9f80-da5ec1dadf4a")
+		(property "Reference" "#PWR022"
+			(at 115.57 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f2c50f7-9629-42a4-8196-13077a0cc841")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba1bc996-6c59-42db-9f4e-43eca80451a7")
+		(property "Reference" "C13"
+			(at 212.09 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 212.09 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 209.2452 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1be7878e-72f0-4ae0-bef4-c21bfcee63c3")
+		)
+		(pin "2"
+			(uuid "9a8113ce-ad71-4242-a803-2f89b56ff1ab")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at -6.35 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb5fad02-b197-4d2f-82ad-10c82cfa0cd9")
+		(property "Reference" "L2"
+			(at -16.764 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at -16.764 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at -5.08 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.81 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -6.35 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "27792fa1-bbed-4d82-8c84-032b46166ec5")
+		)
+		(pin "3"
+			(uuid "9424457b-8112-44d6-b4d4-08b00d748c4f")
+		)
+		(pin "1"
+			(uuid "75dba7c1-5dc4-47f9-9c04-05abfcdd27c9")
+		)
+		(pin "2"
+			(uuid "edc55d35-ed31-47e0-8d8b-87077daf6555")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c97de6ea-737f-482e-a33f-a16334796311")
+		(property "Reference" "C5"
+			(at 49.53 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 49.53 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 46.6852 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "995d8300-0043-4afc-81cd-db13d61fcf59")
+		)
+		(pin "2"
+			(uuid "18146bbb-1cb2-468f-91d5-702fb09dcbaa")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 -35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca30e245-e1dc-4824-97c9-08657c7c8575")
+		(property "Reference" "C12"
+			(at 191.77 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 191.77 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 188.9252 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fcbbf5d-598b-4479-aa20-2146e65e073d")
+		)
+		(pin "1"
+			(uuid "5ae21057-d68b-40e7-a126-275cc31c5577")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbb68345-c26a-444b-a475-9b5c359ea1c7")
+		(property "Reference" "#PWR024"
+			(at 135.89 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f99eb40-f6a7-459f-b42c-605c64dd4930")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 339.09 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5c67baf-84f9-4a7e-b234-3bc7aad1bb2c")
+		(property "Reference" "#PWR053"
+			(at 339.09 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 339.09 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 339.09 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38d208c4-ca2b-42e2-a2d1-b5e3a2663cab")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 95.25 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e35063f4-4c38-4acc-b99d-a38c7984b97e")
+		(property "Reference" "L7"
+			(at 84.836 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 84.836 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 96.52 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0c4c5683-e5a4-43fe-9bd2-2d731c15cf9b")
+		)
+		(pin "3"
+			(uuid "c0d50ea1-3cbf-440c-b920-16fca0ca1aa3")
+		)
+		(pin "1"
+			(uuid "e1eb54fa-825e-4f21-adfe-8de70599177f")
+		)
+		(pin "2"
+			(uuid "81a25e97-b3bf-46c7-a765-7707d3340515")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 257.81 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9157a0e-f154-4daa-acd0-3ac2d2d7472d")
+		(property "Reference" "L15"
+			(at 247.396 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 247.396 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 259.08 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 -42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3c435cd4-bd2f-454b-a9ed-a80aa930e3f7")
+		)
+		(pin "3"
+			(uuid "6c50d14d-4e8e-45e7-96d0-920df8b1b294")
+		)
+		(pin "1"
+			(uuid "8fbba639-737f-4d01-887b-8977c0e729cb")
+		)
+		(pin "2"
+			(uuid "1c117d7d-3b8f-420c-b1bf-f07662ad6810")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "L15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 176.53 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead84c77-481e-47f2-adbb-49e212b21846")
+		(property "Reference" "#PWR027"
+			(at 176.53 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 176.53 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 176.53 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eda1303-5a2f-429a-a958-b107171746c6")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb354591-19d2-4ff5-9bba-e7776a0fec23")
+		(property "Reference" "#PWR041"
+			(at 237.49 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d03cfa6b-2d65-4819-a5eb-ebd878198472")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 156.21 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb8d61f-4162-4b24-a2fb-9b824b89cb8c")
+		(property "Reference" "#PWR025"
+			(at 156.21 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 156.21 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 156.21 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2c6f18d-458c-42ae-8ed3-620d3ca65726")
 		)
 		(instances
 			(project "clackintosh"
@@ -3777,15 +7080,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 105.41 0)
+		(at 196.85 -26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d7b946a7-f860-49f0-870f-296d418df0f3")
-		(property "Reference" "#PWR012"
-			(at 46.99 111.76 0)
+		(fields_autoplaced yes)
+		(uuid "ecac9dde-45b0-4a7f-88cf-d4ef52368fd6")
+		(property "Reference" "#PWR030"
+			(at 196.85 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +7098,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.038 105.156 0)
+			(at 196.85 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +7106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 105.41 0)
+			(at 196.85 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +7115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 105.41 0)
+			(at 196.85 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +7124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 105.41 0)
+			(at 196.85 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,12 +7133,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "824cad3e-0ec7-4965-8d49-45f8b65b6c9d")
+			(uuid "203f9d83-f3e0-46eb-a288-7adaf2f8815b")
 		)
 		(instances
 			(project "clackintosh"
 				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR012")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 359.41 -59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecd3c618-0b1f-4c81-b9aa-77271a2acff1")
+		(property "Reference" "#PWR054"
+			(at 359.41 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 359.41 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 359.41 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 359.41 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33f93d83-34d2-415c-86f3-85bc554f6216")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3842,15 +7212,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 105.41 0)
+		(at 359.41 -26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e20824fa-ebcf-40c2-aa81-bbcd92f841aa")
-		(property "Reference" "#PWR026"
-			(at 171.45 111.76 0)
+		(fields_autoplaced yes)
+		(uuid "f06748c7-6ffe-4729-9135-7ed3af065dee")
+		(property "Reference" "#PWR055"
+			(at 359.41 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +7230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 174.498 105.156 0)
+			(at 359.41 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +7238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 105.41 0)
+			(at 359.41 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +7247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 105.41 0)
+			(at 359.41 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +7256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 105.41 0)
+			(at 359.41 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +7265,139 @@
 			)
 		)
 		(pin "1"
-			(uuid "2dee01c4-5dc1-47f5-abff-1974b1e0a872")
+			(uuid "b3f6211f-4fc4-4048-98a2-2a75b2cb3c6b")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -6.35 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f15fe9ca-255e-4fd6-8d63-af2b17fb9752")
+		(property "Reference" "#PWR038"
+			(at -6.35 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -6.35 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -6.35 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -6.35 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -6.35 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "209764a5-cc8a-42d6-9a14-bf924040df67")
+		)
+		(instances
+			(project ""
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 -26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4b231bb-dbc2-47c6-bae6-00dbc55c8ca7")
+		(property "Reference" "#PWR026"
+			(at 156.21 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17f3ed87-0285-4bfc-9581-216ea7917463")
 		)
 		(instances
 			(project "clackintosh"
@@ -3906,16 +7409,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 118.11 105.41 0)
+		(lib_id "power:VCC")
+		(at -6.35 -59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e3a0c391-d58d-45b0-908a-3cb747f7afe5")
-		(property "Reference" "#PWR020"
-			(at 118.11 111.76 0)
+		(fields_autoplaced yes)
+		(uuid "f7d3068d-6d91-48cc-9e6d-c08f51a3881a")
+		(property "Reference" "#PWR048"
+			(at -6.35 -55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,8 +7427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 121.158 105.156 0)
+		(property "Value" "VCC"
+			(at -6.35 -64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +7436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 105.41 0)
+			(at -6.35 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +7445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 105.41 0)
+			(at -6.35 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,8 +7453,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 105.41 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at -6.35 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,44 +7463,114 @@
 			)
 		)
 		(pin "1"
-			(uuid "92cc09dd-11f8-41a5-984b-e152560701a7")
+			(uuid "4fd682ab-aeb9-4f00-9b39-aa3ee1269266")
 		)
 		(instances
-			(project "clackintosh"
+			(project ""
 				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "#PWR020")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 46.99 97.79 0)
+		(lib_id "Device:C")
+		(at 289.56 -35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e4eef40f-3cb9-43ba-bd88-16ac931eaaca")
-		(property "Reference" "L2"
-			(at 46.99 84.836 0)
+		(fields_autoplaced yes)
+		(uuid "fad37415-a699-4aa2-afe5-31ec34c5c07f")
+		(property "Reference" "C17"
+			(at 293.37 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 293.37 -34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 290.5252 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 289.56 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 289.56 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb989584-1656-4bab-a2fa-eb0f8a9bc5e4")
+		)
+		(pin "2"
+			(uuid "628b4ff0-d962-40a7-8a03-8c25674b7baf")
+		)
+		(instances
+			(project "clackintosh"
+				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Keyboard Parts:SK6812MINI-E")
+		(at 278.13 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc1fd754-a926-4b31-b9e6-ec34f6c7410a")
+		(property "Reference" "L16"
+			(at 267.716 -46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED_SK6812MINI"
-			(at 46.99 87.376 0)
+		(property "Value" "SK6812MINI-E"
+			(at 267.716 -44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 48.26 105.41 0)
+		(property "Footprint" "sk6812mini-e:MX SK6812MINI E (1)"
+			(at 279.4 -44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,8 +7579,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 48.26 108.966 0)
+		(property "Datasheet" ""
+			(at 280.67 -42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,17 +7589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 65.278 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 46.99 87.884 0)
+		(property "Description" ""
+			(at 278.13 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,105 +7599,21 @@
 			)
 		)
 		(pin "4"
-			(uuid "6567ffbb-62d7-4ab7-b99c-c38bd6e2bfa4")
-		)
-		(pin "1"
-			(uuid "6586504c-cdb1-4cdc-a434-34e314ec84a5")
+			(uuid "7363cb87-3d92-4675-932e-e4d00d02a427")
 		)
 		(pin "3"
-			(uuid "796c19f9-610d-4313-969d-0d312c2704ef")
+			(uuid "dfd9cf6e-b0a9-4984-a344-e36fb98055e4")
+		)
+		(pin "1"
+			(uuid "8f545b39-7337-4db8-a249-23b94f0dff1a")
 		)
 		(pin "2"
-			(uuid "6df9b0e1-cdaf-45ef-9465-354423a5023b")
+			(uuid "09a651ab-5035-454e-8413-64a1d53f9bd8")
 		)
 		(instances
 			(project "clackintosh"
 				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 242.57 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff8e2dd1-db5c-47df-bbb2-20e568fdffa1")
-		(property "Reference" "L20"
-			(at 242.57 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 242.57 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 243.84 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 243.84 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 260.858 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 242.57 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6228d035-6857-4404-bbc1-565578f68c4b")
-		)
-		(pin "1"
-			(uuid "befeb321-2ae0-43d2-8dfb-257c6f19e517")
-		)
-		(pin "3"
-			(uuid "1b2574a4-bafd-4f6b-b7bc-6c6b206d3206")
-		)
-		(pin "2"
-			(uuid "72c8193a-f31f-4630-8f2c-657ccbf153d7")
-		)
-		(instances
-			(project "clackintosh"
-				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a/eb9d4f15-386b-4dda-b578-fd2298bdaff4"
-					(reference "L20")
+					(reference "L16")
 					(unit 1)
 				)
 			)

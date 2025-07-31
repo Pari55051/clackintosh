@@ -1,4 +1,4 @@
-25754922939907653
+25756676836001600
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103207,6 +103207,13 @@ MX Keyboard Stabilizer 8.00u 9.00u 10.00u Cutout
 0
 0
 0
+sk6812mini-e
+MX SK6812MINI E (1)
+Add-on for regular MX-footprints with SK6812 MINI-E
+cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight
+0
+4
+4
 slider_switch
 SW_MINI-SPDT-SW
 

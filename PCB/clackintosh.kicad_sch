@@ -4018,7 +4018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3720b689-a61b-40ff-9231-1e419ef37e51")
-		(property "Reference" "C1"
+		(property "Reference" "C21"
 			(at 109.22 134.6199 0)
 			(effects
 				(font
@@ -4072,7 +4072,7 @@
 		(instances
 			(project ""
 				(path "/fb760b86-a9c3-4bd1-911b-58540f9e772a"
-					(reference "C1")
+					(reference "C21")
 					(unit 1)
 				)
 			)
