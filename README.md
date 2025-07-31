@@ -8,6 +8,7 @@ this accompanies my other hardware projects, namely, Clackinntosh Jr. (a macropa
 - has underglow LEDs to light up the side-printed keycaps
 - hotswappable switches (Cherry MX Red/Brown)
 - wireless with 10000mah battery
+- ~ 4° tilt for ergonomics
 - ZMK firmware
 
 ## Images
