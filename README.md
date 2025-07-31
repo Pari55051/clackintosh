@@ -10,6 +10,7 @@ this accompanies my other hardware projects, namely, Clackinntosh Jr. (a macropa
 - wireless with 10000mah battery
 - ~ 4° tilt for ergonomics
 - ZMK firmware
+- a blank white case so that i can create a custom grafitti wall, but stickers and keeb case, on it
 
 ## Images
 
