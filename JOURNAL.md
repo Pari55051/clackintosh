@@ -4,7 +4,7 @@ author: unowen
 description: a nice mechanical keyboard to go with my mac
 created_at: "2025-07-20"
 completed_on: "2025-07-31"
-tota time: "22hr"
+tota time: "23hr"
 ---
 
 ---
@@ -85,16 +85,19 @@ plan for next ses: add 3d models to pcb + final checks for correctness, start wi
 **Total time spent: 4hr**
 ---
 
-# July 29-30th: PCB Finalized
+# July 29-30th: PCB Finalized + made Case
 - added decoupling caps to neopixels after a lot of help from people
 - did the final wiring of the pcb
 - added 3d models to the pcb of the components
+
 - made CAD base + plate for the keeb case
 - updated layout json (it did not have a gap i wanted in between func. row and the num row (refer inspiration img))
 
-<images>
+(the case still has some issues i hope they fixed by tomorrow!)
+<img width="2022" height="1216" alt="error" src="https://github.com/user-attachments/assets/0a315463-1580-49a4-aa2f-881c3ffb241c" />
 
-**Total time spent: 4hr (took way too long becuase i had to manually add each key)**
+
+**Total time spent: 5hr (took way too long becuase i had to manually add each key + erros in CAD)**
 ---
 
 
@@ -111,4 +114,4 @@ plan for next ses: add 3d models to pcb + final checks for correctness, start wi
 ---
 
 
-**TOTAL TIME SPENT = 22hr (schem took wayy too long)**
+**TOTAL TIME SPENT = 23hr (schem took wayy too long)**
