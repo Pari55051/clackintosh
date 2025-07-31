@@ -84,10 +84,30 @@ plan for next ses: add 3d models to pcb + final checks for correctness, start wi
 **Total time spent: 5hr**
 ---
 
+# July 29-30th: PCB FInalized
+- added decoupling caps to neopixels after a lot of help from people
+- did the final wiring of the pcb
+- added 3d models to the pcb of the components
+- made CAD base + plate for the keeb case
+- updated layout json (it did not have a gap i wanted in between func. row and the num row (refer inspiration img))
+
+<images>
+
+**Total time spent: 5hr**
+---
 
 
+# July 31st: Keeb Finalize
+- added 3d model of pcb to CAD
+- finishing touches to case CAD
+- re-verifying everything => found out battery needed some re-modelling of the case
+- finalzed repo for shipping
 
 
+<images>
+  
+**Total time spent: 2.5hr**
+---
 
 
 
