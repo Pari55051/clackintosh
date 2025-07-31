@@ -59,15 +59,16 @@ another challenge was the case CAD, which had unexpected errors.
 |8.| SK6812Mini-E neopixels | 20 | Rs.752.23 ($8.60) [incl. $3.74 shipping] | [LCSC](https://lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html) | for underglow for keycap visibility, not available anywhere else |
 |9.| 100nF Capacitors | 21 | Rs.210 ($2.40) | [Amazon.in](https://www.amazon.in/100pcs-Ceramic-disc-Capacitor-100nf/dp/B08FB2NZ1L?crid=1P652WXADOQHF&dib=eyJ2IjoiMSJ9.E6nRIu5_9YSDNISKzn4qatrWKc7EAydC5mq-F6L7MHSy5aPsfXFMTJ5_YvUvcr9VMIJbHGUdi3eBkWF5oDmjaacjcfmvGjy_XeRrO_PjSvponr2Hf7R18_c3LzMLQi0FFVdox1j2iH-b0jLGImJp5rD-2L-z6mJmC7ETmGFaMeO5tWXr0HIAFSVg7xGD-4CcUEqQRS0xvEK06J5SDaOMluZfmk0X8pTOrxUoOlBwLcA.CWHiOOZnuk92qXruggDfBMzOhlwUS12HJFRN06HVaMo&dib_tag=se&keywords=100nf+50v+capacitor&qid=1753986573&sprefix=100nf+50v+capacitor,aps,259&sr=8-1) | decoupling + used in i2c expander |
 |10.| I2C Expander - MCP23017 | 1 | Rs.258.99 ($2.96) | [RoboticsDNA](https://roboticsdna.in/product/mcp23017-e-sp-microchip-i-o-expander-16-bit-i2c-serial-1-8-v-5-5-v-dip-28-pins/) | short on GPIOs, had to use it |
+|11.| Resitors - 4.7k ohm | 2 | Rs.9 ($0.10) | [Robocraze](https://robocraze.com/products/4-7k-resistor-pack-of-10?_psq=4.7k&_v=1.0) | pullups for i2c|
 |11.| Diodes - 1N4148 though-hole | 81 | Rs.135 ($1.54) | [StacksKB](https://stackskb.com/store/1n4148-through-hole-diode/) | - |
 |12.| 100000mah Battery | 1 | Rs.667 ($7.62) | [Amazon.in](https://www.amazon.in/Portronics-Luxcell-Charging-Output-Button/dp/B0CQK537RQ?crid=30FNXN02G1VQR&dib=eyJ2IjoiMSJ9.SeZBu50Z5maKPBAPuVGIZaCCnuOaK6YIpKFiUoF4lZQMYfVNpBJboLyC4tyXAsvwRIplSp-oxbmFdRZWTLahpCL1Q4RiwgB4HW9QNR0LmMgB_EUeq1E8ImJ_e7xXOxy0p5tsyDBqRuEUn6Z59A_S5TXZKBqEuU-zjyu8vzbfmJr2ysZdim2Oi61aNqKcXVYLygXPOqpGwnpAPvTcgXFo3tB0ZWwji8zyMWBCC2CIGC0.OQO0LtasTF-RZUJpMsytapOf96OHgtbrssq44zcfY8s&dib_tag=se&keywords=10000+mah+battery&qid=1753991573&sprefix=10000mag+battery,aps,203&sr=8-14&th=1) | for long battery life, using this since this is wayy cheaper then the li-po battery |
 |13.| M3x12mm screws | 4 | Rs.159 ($1.82) | [Amazon.in](https://www.amazon.in/gp/product/B07XY78Q73?smid=A1QGCD9W0FP1ZA&th=1) | to assemble the case |
-|13.| M3x5mm heatset inserts | 4 | Rs.170 ($1.94) | [Amazon.in]([https://www.amazon.in/gp/product/B07XY78Q73?smid=A1QGCD9W0FP1ZA&th=1](https://www.amazon.in/gp/product/B0CX1BS7DJ?smid=A1QGCD9W0FP1ZA&psc=1)) | to assemble the case |
+|13.| M3x5mm heatset inserts | 4 | Rs.170 ($1.94) | [Amazon.in](https://www.amazon.in/gp/product/B0CX1BS7DJ?smid=A1QGCD9W0FP1ZA&psc=1) | to assemble the case |
 |14.| Slide Switch (SPDT) | 1 | Rs.14 ($0.16) | [Robocraze](https://robocraze.com/products/slide-switch-3-pin-2-way-spdt?_psq=spdt&_v=1.0) | to turn the keeb on/off |
 |15.| PCB | 5 (default via jlcpcb) | Rs.2780.57 ($31.78) | - | - | 
 |16.| Knob for rotary encoder | 1 | - | - | printed though printing legion |
 
-**TOTAL AMOUNT = Rs.12,448.79 ($142.29) [excl. shipping for printing legion]**
+**TOTAL AMOUNT = Rs.12,457.79 ($142.39) [excl. shipping for printing legion]**
 
 
 ## Credits
