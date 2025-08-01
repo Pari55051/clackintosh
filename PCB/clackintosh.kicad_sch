@@ -2460,6 +2460,16 @@
 		)
 		(uuid ab17a47c-610e-420f-b82b-adfedd818455)
 	)
+	(text "100nF\n"
+		(exclude_from_sim no)
+		(at 111.76 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb115657-59f8-416f-b53c-306acd9a5c53")
+	)
 	(junction
 		(at 142.24 90.17)
 		(diameter 0)
@@ -4162,7 +4172,7 @@
 				)
 			)
 		)
-		(property "Value" "Resistor_1.8kohm"
+		(property "Value" "Resistor_4.7kohm"
 			(at 120.904 109.22 90)
 			(effects
 				(font
@@ -4768,7 +4778,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Resistor_1.8kohm"
+		(property "Value" "Resistor_4.7kohm"
 			(at 119.888 94.234 90)
 			(effects
 				(font

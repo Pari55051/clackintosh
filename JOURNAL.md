@@ -1,10 +1,10 @@
 ---
 title: Clackintosh
 author: unowen
-description: a nice mechanical keyboard to go with my mac
+description: a wireless mechanical keebto go with my mac
 created_at: "2025-07-20"
 completed_on: "2025-07-31"
-tota time: "23hr"
+tota time: "25.5hr"
 ---
 
 ---
@@ -100,7 +100,6 @@ plan for next ses: add 3d models to pcb + final checks for correctness, start wi
 **Total time spent: 5hr (took way too long becuase i had to manually add each key + erros in CAD)**
 ---
 
-
 # July 31st: Keeb Finalize
 - added 3d model of pcb to CAD
 - finishing touches to case CAD
@@ -108,10 +107,26 @@ plan for next ses: add 3d models to pcb + final checks for correctness, start wi
 - finalized repo for shipping
 
 
-<final images in readme>
   
 **Total time spent: 2.5hr**
 ---
 
+# Aug 1st: Resolving Issues
+needed to update the case and the pcb as told by reviewer
+
+Made the following changes:
+- added a wristrest to the keeb case
+- created and added a logo to the case + PCB
+- added wave patterns on the case and wrist rest to match the blue gradient keycap theme
+- added a final look inspiration
+- let go of the sticker grafitti wall idea, will put a few aesthetic matching ones only now
+- got the decoupling capacitors closer to the neopixels
+- added labels to all capacitors for values
+- updated value for pullup resistors on i2c expander
+
+<all updated images in the readme>
+
+**Total Time Spend: 2.5hr**
+---
 
 **TOTAL TIME SPENT = 23hr (schem took wayy too long)**
