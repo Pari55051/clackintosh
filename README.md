@@ -10,7 +10,8 @@ this accompanies my other hardware projects, namely, Clackinntosh Jr. (a macropa
 - wireless with 10000mah battery
 - ~ 4° tilt for ergonomics
 - ZMK firmware
-- a blank white case so that i can create a custom grafitti wall, but stickers and keeb case, on it
+- a blank white case to put some stickers on it!
+- an accompanying wristrest
 
 ## Images
 
@@ -51,7 +52,7 @@ another challenge was the case CAD, which had unexpected errors.
 ## BOM
 |S. | Item | Quantity | Price | Link | Notes|
 |---|------|----------|-------|------|------|
-|1.| Case | 1 | - | - | printed though printing legion|
+|1.| Case (incl. wristrest) | 1 | - | - | printed though printing legion|
 |2.| Knob for rotary encoder | 1 | - | - | printed though printing legion |
 |3.| Switches - Akko V3 Cream Black Pro | 81 | Rs.2398 ($27.41) | [StacksKB](https://stackskb.com/store/akko-v3-cream-black-pro-switch-pack-of-45/) | ordered two since it is a packof 48, free shipping |
 |4.| Hotswappable Sockets | 81 | Rs.1090 ($12.46) [incl. shipping of about $1.14] | [Neo Macro](https://neomacro.in/products/kailh-mx-hotswap-socket?variant=49467139227926) | 9 qty. ordered, since it is a set of 10 |
