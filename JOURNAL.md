@@ -106,8 +106,12 @@ plan for next ses: add 3d models to pcb + final checks for correctness, start wi
 - re-verifying everything => found out battery needed some re-modelling of the case
 - finalized repo for shipping
 
+<img width="1822" height="1158" alt="pcb_root" src="https://github.com/user-attachments/assets/ee4f2783-12d9-45ad-b18d-57ef27e31721" />
+<img width="1835" height="301" alt="pcb_neopixels" src="https://github.com/user-attachments/assets/48723bb7-be73-42fa-8a01-9f2f16187c45" />
+<img width="1839" height="1154" alt="pcb_switches" src="https://github.com/user-attachments/assets/cbbd329b-a10e-4f0e-8d12-38757a6dc319" />
+<img width="1936" height="1041" alt="pcb" src="https://github.com/user-attachments/assets/ca63f38d-e5f6-42ad-b48a-dbb9a26fd5cd" />
+<img width="1433" height="785" alt="pcb_3d_front" src="https://github.com/user-attachments/assets/b0b1f606-db5c-4cd4-9cf6-6067cc1a33ab" />
 
-  
 **Total time spent: 2.5hr**
 ---
 
